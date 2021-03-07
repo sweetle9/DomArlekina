@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Parmigiano Caption Pro Bld';
+    src: url('ParmigianoCaptionPro-BldIta.eot');
+    src: local('ParmigianoCaptionPro-BldIta'),
+        url('ParmigianoCaptionPro-BldIta.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-BldIta.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-BldIta.woff') format('woff'),
+        url('ParmigianoCaptionPro-BldIta.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Blk';
+    src: url('ParmigianoCaptionPro-Blk.eot');
+    src: local('ParmigianoCaptionPro-Blk'),
+        url('ParmigianoCaptionPro-Blk.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-Blk.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-Blk.woff') format('woff'),
+        url('ParmigianoCaptionPro-Blk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Bld';
+    src: url('ParmigianoCaptionPro-Bld.eot');
+    src: local('ParmigianoCaptionPro-Bld'),
+        url('ParmigianoCaptionPro-Bld.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-Bld.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-Bld.woff') format('woff'),
+        url('ParmigianoCaptionPro-Bld.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Med';
+    src: url('ParmigianoCaptionPro-Med.eot');
+    src: local('ParmigianoCaptionPro-Med'),
+        url('ParmigianoCaptionPro-Med.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-Med.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-Med.woff') format('woff'),
+        url('ParmigianoCaptionPro-Med.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Med';
+    src: url('ParmigianoCaptionPro-MedIta.eot');
+    src: local('ParmigianoCaptionPro-MedIta'),
+        url('ParmigianoCaptionPro-MedIta.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-MedIta.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-MedIta.woff') format('woff'),
+        url('ParmigianoCaptionPro-MedIta.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Reg';
+    src: url('ParmigianoCaptionPro-Reg.eot');
+    src: local('ParmigianoCaptionPro-Reg'),
+        url('ParmigianoCaptionPro-Reg.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-Reg.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-Reg.woff') format('woff'),
+        url('ParmigianoCaptionPro-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Lt';
+    src: url('ParmigianoCaptionPro-Lt.eot');
+    src: local('ParmigianoCaptionPro-Lt'),
+        url('ParmigianoCaptionPro-Lt.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-Lt.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-Lt.woff') format('woff'),
+        url('ParmigianoCaptionPro-Lt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Lt';
+    src: url('ParmigianoCaptionPro-LtIta.eot');
+    src: local('ParmigianoCaptionPro-LtIta'),
+        url('ParmigianoCaptionPro-LtIta.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-LtIta.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-LtIta.woff') format('woff'),
+        url('ParmigianoCaptionPro-LtIta.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Blk';
+    src: url('ParmigianoCaptionPro-BlkIta.eot');
+    src: local('ParmigianoCaptionPro-BlkIta'),
+        url('ParmigianoCaptionPro-BlkIta.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-BlkIta.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-BlkIta.woff') format('woff'),
+        url('ParmigianoCaptionPro-BlkIta.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro';
+    src: url('ParmigianoCaptionPro-ThinIta.eot');
+    src: local('ParmigianoCaptionPro-ThinIta'),
+        url('ParmigianoCaptionPro-ThinIta.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-ThinIta.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-ThinIta.woff') format('woff'),
+        url('ParmigianoCaptionPro-ThinIta.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro';
+    src: url('ParmigianoCaptionPro-Thin.eot');
+    src: local('ParmigianoCaptionPro-Thin'),
+        url('ParmigianoCaptionPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-Thin.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-Thin.woff') format('woff'),
+        url('ParmigianoCaptionPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parmigiano Caption Pro Reg';
+    src: url('ParmigianoCaptionPro-RegIta.eot');
+    src: local('ParmigianoCaptionPro-RegIta'),
+        url('ParmigianoCaptionPro-RegIta.eot?#iefix') format('embedded-opentype'),
+        url('ParmigianoCaptionPro-RegIta.woff2') format('woff2'),
+        url('ParmigianoCaptionPro-RegIta.woff') format('woff'),
+        url('ParmigianoCaptionPro-RegIta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
