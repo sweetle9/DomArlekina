@@ -1,0 +1,18 @@
+  .grid {
+    background-color: rgba(21, 48, 60, 1);
+    background-image: url("images/city.svg");
+    background-size: cover;
+    }
+ .texture {
+   position: relative;
+   width:100%;
+   opacity:0.1;
+   max-height: 100%;
+   mix-blend-mode: overlay;
+   padding: 0%;
+   z-index: 1;
+ }
+  .city {
+    position: relative;
+    display: inline-block;
+  }
