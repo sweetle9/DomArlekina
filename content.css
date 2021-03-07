@@ -31,6 +31,15 @@
     width: 50%;
     vertical-align: top;
   }
+  .house_dyn {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    top: 9%;
+    left: 50%;
+  }
   .house_stat {
     position: relative;
     vertical-align: top;
@@ -39,4 +48,5 @@
     height: 90%;
     top: 9%;
     left: 50%;
+    z-index: 1;
   }
