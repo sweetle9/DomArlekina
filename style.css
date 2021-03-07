@@ -1,0 +1,12 @@
+  @import "reset.css";
+  @import "layout.css";
+  @import "content.css";
+  @font-face {
+  font-family: 'Parmigiano Caption Pro Bold';
+  src: url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.eot');
+  src: url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.woff') format('woff'),
+  url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+    }
