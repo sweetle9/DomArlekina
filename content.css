@@ -1,7 +1,9 @@
-
-  body {
-
+  html {
+    background-image: url("images/texture.png");
     }
+  body {
+    opacity: 0.98;
+  }
     .right_side, .left_side {
       height: 100%;
       width: 50%;
@@ -145,7 +147,7 @@
     background-color: rgba(254, 233, 123, 1);
     border-radius: 50%;
     top: -464.5%;
-    right: -152.6%;
+    left: 60%;
     z-index: 0;
   }
   .icon_info {
