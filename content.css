@@ -26,7 +26,7 @@
     padding: 0% 0%;
     overflow: hidden
   }
-  .right_side {
+  .right_side, .left_side {
     height: 100%;
     width: 50%;
     vertical-align: top;
