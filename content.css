@@ -5,8 +5,8 @@
     }
  .texture {
    position: relative;
-   width:100%;
-   opacity:0.1;
+   max-width: 100%;
+   opacity: 0.1;
    max-height: 100%;
    mix-blend-mode: overlay;
    padding: 0%;
@@ -21,14 +21,17 @@
     position: absolute;
     top: 0%;
     left: 0%;
-    max-width: 100%;
+    width: 100%;
     height: 62.500vw;
     padding: 0% 0%;
+    overflow: hidden
   }
-  .column_1 {
+  .right_side {
     height: 100%;
     width: 50%;
     vertical-align: top;
+    display: inline-block;
+    top: 0%;
   }
   .house_dyn {
     position: relative;
@@ -44,8 +47,8 @@
     vertical-align: top;
     width: 91%;
     height: 91%;
-    top: -183.6%;
-    right: -105.9%;
+    top: -183.5%;
+    right: -106%;
     z-index: 2;
   }
   .house_stat {
@@ -125,7 +128,7 @@
     display: block;
     width: 66.7%;
     height: 66.7%;
-    top: -328%;
+    top: -333.8%;
     right: -118.1%;
     z-index: 4;
   }
@@ -133,11 +136,169 @@
     width: 26.786vw;
     height: 26.786vw;
     position: relative;
-    display: inline-block;
-    overflow: hidden;
+    vertical-align: top;
+    display: block;
     background-color: rgba(254, 233, 123, 1);
     border-radius: 50%;
-    top: -455%;
+    top: -464.5%;
     right: -152.6%;
     z-index: 0;
   }
+  .icon_info {
+    position: relative;
+    vertical-align: top;
+    display: block;
+    width: 6%;
+    height: 6%;
+    top: -290%;
+    right: -188.7%;
+    z-index: 4;
+  }
+  .block_1 {
+    width: 17.857vw;
+    height: 27.321vw;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(100, 100, 112, 0.55);
+    top: -469.5%;
+    right: 0%;
+    z-index: 0;
+  }
+  .circle_1 {
+    width: 4.524vw;
+    height: 4.524vw;
+    position: relative;
+    vertical-align: top;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    top: -363.5%;
+    right: -186.8%;
+  }
+  .circle_2 {
+    width: 6vw;
+    height: 6vw;
+    position: relative;
+    display:block;
+    vertical-align: top;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    top: -27%;
+    right: -5%;
+  }
+  .icon_paint {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    top: 0%;
+    right: -8%;
+  }
+    .circle_3 {
+      width: 6vw;
+      height: 6vw;
+      position: relative;
+      display:block;
+      vertical-align: top;
+      border: 0.238vw solid;
+      border-radius: 6vw;
+      color: white;
+      top: -74.8%;
+      right: -55%;
+    }
+    .icon_money {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 24%;
+      height: 24%;
+      top: -51%;
+      right: -61%;
+    }
+    .circle_4 {
+      width: 6vw;
+      height: 6vw;
+      position: relative;
+      display:block;
+      vertical-align: top;
+      border: 0.238vw solid;
+      border-radius: 6vw;
+      color: white;
+      top: -88.5%;
+      right: -5%;
+    }
+    .icon_light {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 21%;
+      height: 21%;
+      top: -66%;
+      right: -12.6%;
+    }
+    .circle_5 {
+      width: 6vw;
+      height: 6vw;
+      position: relative;
+      display:block;
+      vertical-align: top;
+      border: 0.238vw solid;
+      border-radius: 6vw;
+      color: white;
+      top: -144.5%;
+      right: -55%;
+    }
+    .icon_sun {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 31%;
+      height: 31%;
+      top: -117%;
+      right: -57.8%;
+    }
+    .circle_6 {
+      width: 6vw;
+      height: 6vw;
+      position: relative;
+      display:block;
+      vertical-align: top;
+      border: 0.238vw solid;
+      border-radius: 6vw;
+      color: white;
+      top: -158%;
+      right: -5%;
+    }
+    .icon_food {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 22%;
+      height: 22%;
+      top: -135.5%;
+      right: -12%;
+    }
+    .circle_7 {
+      width: 6vw;
+      height: 6vw;
+      position: relative;
+      display:block;
+      vertical-align: top;
+      border: 0.238vw solid;
+      border-radius: 6vw;
+      color: white;
+      top: -202%;
+      right: -55%;
+    }
+    .icon_graffiti {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 20%;
+      height: 20%;
+      top: -180%;
+      right: -63%;
+    }
