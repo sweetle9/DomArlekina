@@ -1,10 +1,11 @@
   html {
     background-image: url("images/texture.png");
+    overflow: hidden;
     }
   body {
     opacity: 0.98;
   }
-    .right_side, .left_side {
+  .right_side, .left_side {
       height: 100%;
       width: 50%;
       vertical-align: top;
@@ -16,15 +17,6 @@
     background-image: url("images/city.svg");
     background-size: cover;
     }
-   .texture {
-   position: relative;
-   max-width: 100%;
-   opacity: 0.1;
-   max-height: 100%;
-   mix-blend-mode: overlay;
-   padding: 0%;
-   z-index: 1000;
- }
   .city {
     position: relative;
     display: inline-block;
