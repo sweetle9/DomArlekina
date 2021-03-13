@@ -177,13 +177,13 @@
     width: 6vw;
     height: 6vw;
     position: relative;
-    display:block;
+    display:inline-block;
     vertical-align: top;
     border: 0.238vw solid;
     border-radius: 6vw;
     color: white;
-    top: -27%;
-    left: 5%;
+    top: 3%;
+    left: -26%;
   }
   .icon_paint {
     position: relative;
@@ -198,12 +198,12 @@
       width: 6vw;
       height: 6vw;
       position: relative;
-      display:block;
+      display:inline-block;
       vertical-align: top;
       border: 0.238vw solid;
       border-radius: 6vw;
       color: white;
-      top: -74.8%;
+      top: -26.8%;
       left: 55%;
     }
     .icon_money {
@@ -212,35 +212,35 @@
       display: inline-block;
       width: 24%;
       height: 24%;
-      top: -51%;
-      left: 61%;
+      top: 3%;
+      left: -7.5%;
     }
     .circle_4 {
       width: 6vw;
       height: 6vw;
       position: relative;
-      display:block;
+      display:inline-block;
       vertical-align: top;
       border: 0.238vw solid;
       border-radius: 6vw;
       color: white;
-      top: -88.5%;
-      left: 5%;
+      top: 4.2%;
+      left: -54%;
     }
     .icon_light {
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 21%;
-      height: 21%;
-      top: -66%;
-      left: 12.6%;
+      width: 20%;
+      height: 20%;
+      top: 6%;
+      left: -24.4%;
     }
     .circle_5 {
       width: 6vw;
       height: 6vw;
       position: relative;
-      display:block;
+      display:inline-block;
       vertical-align: top;
       border: 0.238vw solid;
       border-radius: 6vw;
@@ -254,14 +254,14 @@
       display: inline-block;
       width: 31%;
       height: 31%;
-      top: -117%;
+      top: -23%;
       left: 57.8%;
     }
     .circle_6 {
       width: 6vw;
       height: 6vw;
       position: relative;
-      display:block;
+      display:inline-block;
       vertical-align: top;
       border: 0.238vw solid;
       border-radius: 6vw;
@@ -282,7 +282,7 @@
       width: 6vw;
       height: 6vw;
       position: relative;
-      display:block;
+      display:inline-block;
       vertical-align: top;
       border: 0.238vw solid;
       border-radius: 6vw;
