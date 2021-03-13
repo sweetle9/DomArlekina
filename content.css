@@ -1,6 +1,6 @@
   html {
     background-image: url("images/texture.png");
-    overflow: hidden;
+    overflow:inherit;
     }
   body {
     opacity: 0.98;
