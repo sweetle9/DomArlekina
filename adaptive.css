@@ -25,43 +25,95 @@
         display: none;
    }
    .top_side_m, .bottom_side_m {
-     height: 50vw;
+     height: 50vh;
      width: 100%;
      vertical-align: top;
      display: inline-block;
      top: 0%;
    }
    .block_1 {
-     width: 66.016vw;
+     width: 74.016vw;
      height: 13.932vw;
      top: 0%;
-     left: 17%;
+     left: 13%;
    }
    .icons {
      width: 100%;
      height: 100%;
-     top: 5%;
+     top: 13%;
+     left: 2%;
    }
    .icon_paint {
-     width: 9vw;
-     height: 9vw;
-     top: 11%;
-     left: 6%;
+     width: 7.5vw;
+     height: 7.5vw;
+     top: 9%;
+     left: 4.7%;
   }
   .circle_2 {
-    width: 11vw;
-    height: 11vw;
+    width: 9.5vw;
+    height: 9.5vw;
     top: 0%;
-    left: 5.3%;
+    left: -8%;
   }
   .icon_money {
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    width: 9vw;
-    height: 9vw;
-    bottom: 133%;
-    left: 26.3%;
+    width: 7.5vw;
+    height: 7.5vw;
+    top: 11%;
+    left: -5.3%;
+  }
+  .circle_3 {
+    width: 9.5vw;
+    height: 9.5vw;
+    top: 0%;
+    left: -18%;
+  }
+  .icon_light {
+    width: 7.5vw;
+    height: 7.5vw;
+    top: 11%;
+    left: -15.3%;
+  }
+  .circle_4 {
+    width: 9.5vw;
+    height: 9.5vw;
+    top: 0%;
+    left: -28%;
+  }
+  .icon_sun {
+    width: 7.5vw;
+    height: 7.5vw;
+    top: 9%;
+    left: -25.5%;
+  }
+  .circle_5 {
+    width: 9.5vw;
+    height: 9.5vw;
+    top: 1%;
+    left: -38%;
+  }
+  .icon_food {
+    width: 7.1vw;
+    height: 7.1vw;
+    top: -62%;
+    left: 65%;
+  }
+  .circle_6 {
+    width: 9.5vw;
+    height: 9.5vw;
+    top: -71%;
+    left: 53%;
+  }
+  .icon_graffiti {
+    width: 7.5vw;
+    height: 7.5vw;
+    top: -62%;
+    left: 56%;
+  }
+  .circle_7 {
+    width: 9.5vw;
+    height: 9.5vw;
+    top: -70%;
+    left: 43.5%;
   }
 }
   @media (max-width: 320px) {
