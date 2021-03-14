@@ -1,8 +1,12 @@
-  html {
-    background-image: url("images/texture.png");
-    }
-  body {
+  body .main {
     opacity: 0.98;
+  }
+  .texture {
+    opacity: 0.2;
+    position: absolute;
+    z-index: 1000;
+    overflow: hidden;
+    height: 62.500vw;
   }
   .right_side, .left_side {
       height: 100%;
@@ -193,7 +197,7 @@
     display: inline-block;
     width: 30%;
     height: 30%;
-    top: 7%;
+    top: 2%;
     left: 10.3%;
   }
     .circle_3 {
@@ -214,8 +218,8 @@
       display: inline-block;
       width: 24%;
       height: 24%;
-      top: 7%;
-      left: 31%;
+      top: 4.3%;
+      left: 30.6%;
     }
     .circle_4 {
       width: 6vw;
@@ -236,7 +240,7 @@
       width: 20%;
       height: 20%;
       top: 38%;
-      right: 40.3%;
+      right: 41.4%;
     }
     .circle_5 {
       width: 6vw;
@@ -256,8 +260,8 @@
       display: inline-block;
       width: 31%;
       height: 31%;
-      top: 7%;
-      left: 58.8%;
+      top: 1%;
+      left: 58.4%;
     }
     .circle_6 {
       width: 6vw;
@@ -277,7 +281,7 @@
       display: inline-block;
       width: 21%;
       height: 21%;
-      top: 40.5%;
+      top: 38.5%;
       left: -18%;
     }
     .circle_7 {
@@ -298,8 +302,8 @@
       display: inline-block;
       width: 19%;
       height: 19%;
-      top: 40%;
-      left: 13%;
+      top: 39.5%;
+      left: 10%;
     }
     .icon_temp {
       position: relative;
