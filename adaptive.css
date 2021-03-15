@@ -4,7 +4,7 @@
    }
     }
   @media (max-width: 1440px) {
-    .top_side, .bottom_sidm {
+    .top_side, .bottom_side {
       display: none;
     }
     }
@@ -45,91 +45,151 @@
    .texture {
     height: 133.333vw;
    }
-   .block_1 {
+   .block_1_m {
+     position: relative;
+     vertical-align: top;
+     display: block;
+     background-color: rgba(100, 100, 112, 0.55);
      width: 71.016vw;
      height: 13.932vw;
      top: 0%;
-     left: 16%;
-     padding: 0% 0%;
+     left: 15%;
    }
-   .icons {
+   .icons_m {
+     vertical-align: top;
+     position: relative;
+     display: block;
      width: 100%;
      height: 100%;
-     top: 14%;
-     left: 2%;
+     top: 0%;
+     left: 0%;
      padding: 0% 0%;
    }
-   .icon_paint {
+   .icon_paint_m {
+     position: relative;
+     vertical-align: top;
+     display: inline-block;
      width: 7.5vw;
      height: 7.5vw;
-     top: 9%;
+     top: 20%;
      left: 4.3%;
   }
-  .circle_2 {
-    width: 8.5vw;
-    height: 8.5vw;
+  .circle_2_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    width: 6vw;
+    height: 6vw;
     top: 3%;
     left: -8%;
   }
-  .icon_money {
+  .icon_money_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
     width: 7.5vw;
     height: 7.5vw;
-    top: 9%;
+    top: 20%;
     left: -4.7%;
   }
-  .circle_3 {
-    width: 8.5vw;
-    height: 8.5vw;
+  .circle_3_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    width: 6vw;
+    height: 6vw;
     top: 3%;
-    left: -17%;
+    left: -8%;
   }
-  .icon_light {
+  .icon_light_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
     width: 7.5vw;
     height: 7.5vw;
-    top: 9.7%;
+    top: 20%;
     left: -13.7%;
   }
-  .circle_4 {
-    width: 8.5vw;
-    height: 8.5vw;
+  .circle_4_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    width: 6vw;
+    height: 6vw;
     top: 3%;
-    left: -26%;
+    left: -8%;
   }
-  .icon_sun {
+  .icon_sun_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
     width: 7.5vw;
     height: 7.5vw;
-    top: 9%;
+    top: 20%;
     left: -22.5%;
   }
-  .circle_5 {
-    width: 8.5vw;
-    height: 8.5vw;
+  .circle_5_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    width: 6vw;
+    height: 6vw;
     top: 3%;
-    left: -35%;
+    left: -8%;
   }
-  .icon_food {
-    width: 6.7vw;
-    height: 6.7vw;
-    top: -52%;
-    left: 68%;
-  }
-  .circle_6 {
-    width: 8.5vw;
-    height: 8.5vw;
-    top: -62%;
-    left: 56%;
-  }
-  .icon_graffiti {
+  .icon_food_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
     width: 7.5vw;
     height: 7.5vw;
-    top: -57%;
+    top: 20%;
+    left: 68%;
+  }
+  .circle_6_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    width: 6vw;
+    height: 6vw;
+    top: 3%;
+    left: -8%;
+  }
+  .icon_graffiti_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 7.5vw;
+    height: 7.5vw;
+    top: 20%;
     left: 58.3%;
   }
-  .circle_7 {
-    width: 8.5vw;
-    height: 8.5vw;
-    top: -62%;
-    left: 46%;
+  .circle_7_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    width: 6vw;
+    height: 6vw;
+    top: 3%;
+    left: -8%;
   }
 }
   @media (max-width: 320px) {
