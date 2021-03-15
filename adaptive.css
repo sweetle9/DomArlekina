@@ -1,17 +1,27 @@
   @media (max-width: 1680px) {
-
+   .top_side, .bottom_side {
+     display: none;
+   }
     }
   @media (max-width: 1440px) {
-
+    .top_side, .bottom_sidm {
+      display: none;
+    }
     }
   @media (max-width: 1366px) {
-
+    .top_side, .bottom_side {
+      display: none;
+    }
     }
   @media (max-width: 1280px) {
-
+    .top_side, .bottom_side {
+      display: none;
+    }
     }
   @media (max-width: 1024px) {
-
+    .top_side, .bottom_side {
+      display: none;
+    }
     }
   @media (max-width: 768px) {
    .left_side, .right_side {
@@ -24,11 +34,12 @@
    .grid h1, h2 {
     display: none;
    }
-   .top_side_m, .bottom_side_m {
+   .top_side, .bottom_side {
      height: 50vh;
      width: 100%;
      vertical-align: top;
      display: inline-block;
+     position: relative;
      top: 0%;
    }
    .texture {
@@ -39,84 +50,86 @@
      height: 13.932vw;
      top: 0%;
      left: 16%;
+     padding: 0% 0%;
    }
    .icons {
      width: 100%;
      height: 100%;
      top: 14%;
-     left: 3.5%;
+     left: 2%;
+     padding: 0% 0%;
    }
    .icon_paint {
      width: 7.5vw;
      height: 7.5vw;
      top: 9%;
-     left: 2.3%;
+     left: 4.3%;
   }
   .circle_2 {
     width: 8.5vw;
     height: 8.5vw;
     top: 3%;
-    left: -65.5%;
+    left: -8%;
   }
   .icon_money {
     width: 7.5vw;
     height: 7.5vw;
     top: 9%;
-    left: 6.4%;
+    left: -4.7%;
   }
   .circle_3 {
     width: 8.5vw;
     height: 8.5vw;
     top: 3%;
-    left: -63.5%;
+    left: -17%;
   }
   .icon_light {
     width: 7.5vw;
     height: 7.5vw;
     top: 9.7%;
-    left: 10.6%;
+    left: -13.7%;
   }
   .circle_4 {
     width: 8.5vw;
     height: 8.5vw;
-    top: -61%;
-    left: 32%;
+    top: 3%;
+    left: -26%;
   }
   .icon_sun {
     width: 7.5vw;
     height: 7.5vw;
     top: 9%;
-    left: 14.5%;
+    left: -22.5%;
   }
   .circle_5 {
     width: 8.5vw;
     height: 8.5vw;
-    top: -61%;
-    left: 33.8%;
+    top: 3%;
+    left: -35%;
   }
   .icon_food {
     width: 6.7vw;
     height: 6.7vw;
-    top: 11%;
-    left: 19%;
+    top: -52%;
+    left: 68%;
   }
   .circle_6 {
     width: 8.5vw;
     height: 8.5vw;
-    top: -61%;
-    left: 36%;
+    top: -62%;
+    left: 56%;
   }
   .icon_graffiti {
     width: 7.5vw;
     height: 7.5vw;
-    top: 9%;
-    left: 24.3%;
+    top: -57%;
+    left: 58.3%;
   }
   .circle_7 {
     width: 8.5vw;
     height: 8.5vw;
-    top: -61%;
-    left: 38.5%;
+    top: -62%;
+    left: 46%;
   }
 }
   @media (max-width: 320px) {
