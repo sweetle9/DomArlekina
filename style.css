@@ -1,22 +1,25 @@
-  @import "reset.css";
-  @import "layout.css";
-  @import "content.css";
-  @import "adaptive.css";
-  @font-face {
-  font-family: 'Parmigiano Caption Pro Bold';
-  src: url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.eot');
-  src: url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.eot?#iefix') format('embedded-opentype'),
-  url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.woff') format('woff'),
-  url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    @import "reset.css";
+    @import "layout.css";
+    @import "content.css";
+    @import "adaptive.css";
+    @font-face {
+    font-family: 'Parmigiano Caption Pro Bold';
+    src: url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.eot');
+    src: url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.woff') format('woff'),
+    url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+    @font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica/HelveticaNeueCyr-Roman.eot');
+    src: url('fonts/Helvetica/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Helvetica/HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('fonts/Helvetica/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: roman;
+    font-style: roman;
     }
-  @font-face {
-  font-family: 'Helvetica';
-  src: url('fonts/Helvetica/HelveticaNeueCyr-Roman.eot');
-  src: url('fonts/Helvetica/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
-  url('fonts/Helvetica/HelveticaNeueCyr-Roman.woff') format('woff'),
-  url('fonts/Helvetica/HelveticaNeueCyr-Roman.ttf') format('truetype');
-  font-weight: roman;
-  font-style: roman;
-  }
+   html {
+     cursor: url("images/cursor_svg.svg"), auto;
+   }
