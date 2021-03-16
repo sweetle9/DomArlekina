@@ -382,7 +382,7 @@
     .icon_info_m {
       position: relative;
       vertical-align: top;
-      display: inline-block;
+      display: block;
       width: 7vw;
       height: 7vw;
       top: -327%;
