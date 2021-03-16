@@ -1,3 +1,11 @@
+@media (min-width: 1680px) {
+ .top_side, .bottom_side {
+   display: none;
+ }
+ .texture {
+   width: 100%;
+ }
+  }
   @media (max-width: 1680px) {
    .top_side, .bottom_side {
      display: none;
@@ -35,21 +43,22 @@
     display: none;
    }
    .top_side {
-     height: 50vh;
+     height: 15vh;
      width: 100%;
      vertical-align: top;
      display: inline-block;
-     position: relative;
+     position: absolute;
      top: 0%;
+     bottom: none;
    }
    .bottom_side {
      top: none;
      bottom: 0%;
-     height: 50vh;
+     height: 85vh;
      width: 100%;
-     vertical-align: top;
+     vertical-align: bottom;
      display: inline-block;
-     position: relative;
+     position: absolute;
    }
    .texture {
     height: 133.333vw;
@@ -183,6 +192,51 @@
     color: white;
     width: 9vw;
     height: 9vw;
+  }
+  .block_temperature_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    height: 10%;
+    top: 36.5%;
+    left: 3%;
+  }
+  .cels_m {
+    position: relative;
+    display: inline-block;
+    font-size: 5.7vw;
+    font-family: Helvetica;
+    left: 41%;
+    top: -136%;
+  }
+  .block_temperature_scale_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 31%;
+    height: 6%;
+    top: 47.5%;
+    left: -28%;
+  }
+}
+  .skale_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+  }
+  .skale_button_m {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 94%;
+    height: 94%;
+    bottom: 95%;
+    left: 0%;
   }
 }
   @media (max-width: 320px) {
