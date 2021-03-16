@@ -8,14 +8,24 @@
     overflow: hidden;
     height: 62.500vw;
   }
-  .right_side, .left_side {
+  .right_side {
+      right: 0%;
+      left: none;
       height: 100%;
       width: 50%;
       vertical-align: top;
-      position: relative;
-      display: inline-block;
-      top: 0%;
+      position: absolute;
     }
+  .left_side {
+      height: 100%;
+      width: 50%;
+      vertical-align: top;
+      position: absolute;
+      display: block;
+      left: 0%;
+      bottom: 0;
+    }
+
   .grid {
     background-color: rgba(21, 48, 60, 1);
     background-image: url("images/city.svg");
@@ -38,6 +48,16 @@
   body img {
     width: 100%;
     height: 100%;
+  }
+  .icons img {
+    width: 85%;
+    height: 85%;
+    margin-top: 6%;
+  }
+  .icon_food img {
+    width: 80%;
+    height: 80%;
+    margin-top: 6%;
   }
   .house_dyn {
     position: relative;
@@ -175,15 +195,7 @@
     top: 30%;
     right: 0%;
   }
-  .circles {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    left: 0%;
-    top: 0%;
-  }
-  .circle_1 {
+   .circle_1 {
     width: 4.524vw;
     height: 4.524vw;
     position: relative;
@@ -192,8 +204,6 @@
     border: 0.238vw solid;
     border-radius: 6vw;
     color: white;
-    top: -284.8%;
-    left: 86%;
   }
   .circle_2 {
     width: 6vw;
@@ -204,9 +214,7 @@
     border: 0.238vw solid;
     border-radius: 6vw;
     color: white;
-    bottom: 56%;
-    left: 7%;
-  }
+   }
   .circle_3 {
     width: 6vw;
     height: 6vw;
@@ -216,26 +224,24 @@
     border: 0.238vw solid;
     border-radius: 6vw;
     color: white;
-    bottom: 56%;
-    left: 18%;
   }
   .icon_paint {
     position: relative;
     vertical-align: top;
     display: inline-block;
-    width: 30%;
-    height: 30%;
-    top: 2%;
-    left: 10.3%;
+    width: 36%;
+    height: 23%;
+    margin-top: 8%;
+    margin-bottom: 8%;
   }
     .icon_money {
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 24%;
-      height: 24%;
-      top: 4.3%;
-      left: 30.6%;
+      width: 36%;
+      height: 23%;
+      margin-top: 8%;
+      margin-left: 8%;
     }
     .circle_4 {
       width: 6vw;
@@ -246,18 +252,14 @@
       border: 0.238vw solid;
       border-radius: 6vw;
       color: white;
-      top: -48%;
-      left: 7%;
     }
     .icon_light {
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 20%;
-      height: 20%;
-      top: 38%;
-      right: 41.4%;
-    }
+      width: 36%;
+      height: 23%;
+     }
     .circle_5 {
       width: 6vw;
       height: 6vw;
@@ -267,18 +269,16 @@
       border: 0.238vw solid;
       border-radius: 6vw;
       color: white;
-      top: -49%;
-      left: 18%;
-    }
+      }
     .icon_sun {
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 31%;
-      height: 31%;
-      top: 1%;
-      left: 58.4%;
-    }
+      width: 36%;
+      height: 23%;
+      margin-left: 8%;
+      margin-bottom: 8%;
+     }
     .circle_6 {
       width: 6vw;
       height: 6vw;
@@ -288,18 +288,14 @@
       border: 0.238vw solid;
       border-radius: 6vw;
       color: white;
-      top: -40%;
-      left: 7%;
-    }
+     }
     .icon_food {
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 21%;
-      height: 21%;
-      top: 38.5%;
-      left: -18%;
-    }
+      width: 36%;
+      height: 23%;
+     }
     .circle_7 {
       width: 6vw;
       height: 6vw;
@@ -309,26 +305,21 @@
       border: 0.238vw solid;
       border-radius: 6vw;
       color: white;
-      top: -40%;
-      left: 18%;
-    }
+     }
     .icon_graffiti {
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 19%;
-      height: 19%;
-      top: 39.5%;
-      left: 10%;
-    }
+      width: 36%;
+      height: 23%;
+      margin-left: 8%;
+     }
     .icon_temp {
       position: relative;
       vertical-align: top;
       display: inline-block;
       width: 95%;
       height: 95%;
-      bottom: 0%;
-      left: 0%;
     }
     .icons {
       width: 100%;
@@ -336,7 +327,9 @@
       top: 2%;
       vertical-align: top;
       position: relative;
-      display: block;
+      justify-content: space-evenly;
+      text-align: center;
+      align-items: center;
     }
     .block_temperature {
       position: relative;
