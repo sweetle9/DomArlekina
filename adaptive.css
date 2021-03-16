@@ -46,10 +46,10 @@
      height: 133.333vw;
    }
    .top_side {
-     height: 15vh;
+     height: 15vw;
      width: 100%;
      vertical-align: top;
-     display: inline-block;
+     display: block;
      position: absolute;
      top: 0%;
      bottom: none;
@@ -57,10 +57,10 @@
    .bottom_side {
      top: none;
      bottom: 0%;
-     height: 85vh;
+     height: 119vw;
      width: 100%;
      vertical-align: bottom;
-     display: inline-block;
+     display: block;
      position: absolute;
    }
    .texture {
