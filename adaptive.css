@@ -199,7 +199,7 @@
   .block_temperature_m {
     position: relative;
     vertical-align: top;
-    display: inline-block;
+    display: block;
     width: 30%;
     height: 10%;
     top: 14.5%;
@@ -216,11 +216,11 @@
   .block_temperature_scale_m {
     position: relative;
     vertical-align: top;
-    display: inline-block;
+    display: block;
     width: 17%;
     height: 49%;
-    top: 26.5%;
-    left: -29%;
+    top: 17.5%;
+    left: 2%;
   }
 }
   .skale_m {
@@ -244,11 +244,11 @@
   .block_coins_m {
       position: relative;
       vertical-align: top;
-      display: inline-block;
+      display: block;
       width: 41%;
       height: 15%;
-      top: 91%;
-      left: -46%;
+      top: 32%;
+      left: 2%;
     }
     .icon_coins_m {
       position: relative;
@@ -273,7 +273,7 @@
       display: block;
       width: 57%;
       height: 88%;
-      top: -38%;
+      top: -62%;
       left: 27%;
       z-index: 1;
     }
@@ -283,7 +283,7 @@
       display: block;
       width: 57%;
       height: 84%;
-      bottom: 211.9%;
+      bottom: 235.9%;
       left: 27%;
       z-index: 2;
     }
@@ -293,7 +293,7 @@
       display: block;
       width: 61%;
       height: 90%;
-      bottom: 127%;
+      bottom: 151%;
       left: 25%;
       z-index: 3;
     }
@@ -303,7 +303,7 @@
       display: block;
       width: 10.5%;
       height: 8.5%;
-      top: -283.5%;
+      top: -307.5%;
       left: 50.2%;
       z-index: 4;
     }
@@ -313,7 +313,7 @@
       display: block;
       width: 10.5%;
       height: 8.5%;
-      bottom: 275.3%;
+      bottom: 299.3%;
       left: 39.5%;
       z-index: 4;
     }
@@ -323,7 +323,7 @@
       display: block;
       width: 10.5%;
       height: 8.5%;
-      bottom: 283.8%;
+      bottom: 307.8%;
       left: 60.8%;
       z-index: 4;
     }
@@ -333,7 +333,7 @@
       display: block;
       width: 10.5%;
       height: 8.5%;
-      bottom: 278.2%;
+      bottom: 302.2%;
       left: 39.4%;
       z-index: 4;
     }
@@ -343,7 +343,7 @@
       display: block;
       width: 10.5%;
       height: 8.5%;
-      bottom: 286.7%;
+      bottom: 310.7%;
       left: 60.8%;
       z-index: 4;
     }
@@ -353,7 +353,7 @@
       display: block;
       width: 44.5%;
       height: 17.5%;
-      top: -278%;
+      top: -302%;
       left: 33%;
       z-index: 2;
     }
@@ -363,7 +363,7 @@
       display: block;
       width: 58%;
       height: 23%;
-      top: -296%;
+      top: -320%;
       left: 23%;
       z-index: 4;
     }
@@ -385,8 +385,8 @@
       display: inline-block;
       width: 7vw;
       height: 7vw;
-      top: -302%;
-      left: 89%;
+      top: -327%;
+      left: 88.6%;
     }
 }
   @media (max-width: 320px) {
