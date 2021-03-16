@@ -179,11 +179,14 @@
     position: relative;
     vertical-align: top;
     display: block;
-    width: 6%;
-    height: 6%;
-    top: -277.8%;
-    left: 88%;
-    z-index: 4;
+    top: -278%;
+    left: 86%;
+  }
+  .icon_info img {
+    width: 90%;
+    height: 90%;
+    margin-left: 6%;
+    margin-top: 4%;
   }
   .block_1 {
     width: 17.857vw;
@@ -318,8 +321,8 @@
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 95%;
-      height: 95%;
+      width: 100%;
+      height: 100%;
     }
     .icons {
       width: 100%;
@@ -335,20 +338,20 @@
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 98%;
-      height: 23%;
-      top: 3%;
-      left: 11%;
+      width: 30%;
+      height: 10%;
+      top: 36.5%;
+      left: 3%;
     }
     .block_temperature_scale {
-        position: relative;
-        vertical-align: top;
-        display: inline-block;
-        width: 93%;
-        height: 14%;
-        top: 3%;
-        left: 12%;
-      }
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 31%;
+      height: 6%;
+      top: 47.5%;
+      left: -28%;
+    }
     .skale {
       position: relative;
       vertical-align: top;
@@ -362,9 +365,9 @@
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 100%;
-      height: 75%;
-      bottom: 87%;
+      width: 94%;
+      height: 94%;
+      bottom: 95%;
       left: 0%;
     }
     .block_coins {
@@ -388,8 +391,8 @@
       .cels {
         font-size: 2.7vw;
         font-family: Helvetica;
-        left: 33%;
-        top: 26%;
+        left: 41%;
+        top: 31%;
       }
       .coins {
         font-size: 4vw;
