@@ -211,7 +211,7 @@
     font-size: 5.7vw;
     font-family: Helvetica;
     left: 41%;
-    top: -79.5%;
+    top: -77.5%;
   }
   .block_temperature_scale_m {
     position: relative;
@@ -267,7 +267,130 @@
       position: relative;
       display: inline-block;
     }
+    .house_dyn_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 57%;
+      height: 88%;
+      top: -38%;
+      left: 27%;
+      z-index: 1;
+    }
+    .shadows_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 57%;
+      height: 84%;
+      bottom: 211.9%;
+      left: 27%;
+      z-index: 2;
+    }
+    .house_stat_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 61%;
+      height: 90%;
+      bottom: 127%;
+      left: 25%;
+      z-index: 3;
+    }
+    .window_1_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 10.5%;
+      height: 8.5%;
+      top: -283.5%;
+      left: 50.2%;
+      z-index: 4;
+    }
+    .window_2_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 10.5%;
+      height: 8.5%;
+      bottom: 275.3%;
+      left: 39.5%;
+      z-index: 4;
+    }
+    .window_3_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 10.5%;
+      height: 8.5%;
+      bottom: 283.8%;
+      left: 60.8%;
+      z-index: 4;
+    }
+    .window_4_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 10.5%;
+      height: 8.5%;
+      bottom: 278.2%;
+      left: 39.4%;
+      z-index: 4;
+    }
+    .window_5_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 10.5%;
+      height: 8.5%;
+      bottom: 286.7%;
+      left: 60.8%;
+      z-index: 4;
+    }
+    .window_6_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 44.5%;
+      height: 17.5%;
+      top: -278%;
+      left: 33%;
+      z-index: 2;
+    }
+    .doors_roof_m {
+      position: relative;
+      vertical-align: top;
+      display: block;
+      width: 58%;
+      height: 23%;
+      top: -296%;
+      left: 23%;
+      z-index: 4;
+    }
+    .doors_roof_m img {
+      width: 112%;
+      height: 112%;
+    }
+    .circle_1_m {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      border: 0.238vw solid;
+      border-radius: 6vw;
+      color: white;
+    }
+    .icon_info_m {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 7vw;
+      height: 7vw;
+      top: -302%;
+      left: 89%;
+    }
 }
   @media (max-width: 320px) {
-
+    .top_side, .bottom_side {
+      display: none;
+    }
     }
