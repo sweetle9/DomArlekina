@@ -207,7 +207,7 @@
   }
   .cels_m {
     position: relative;
-    display: inline-block;
+    display: block;
     font-size: 5.7vw;
     font-family: Helvetica;
     left: 41%;
