@@ -8,11 +8,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-      $(".circle_2").hover(function(){
-    	$(this).css("background-color","rgba(53, 177, 190, 1)");
-    });}, function(){
-      $(this).css("background-color","white");
-  	});
+      $(".circle_2").click(function(){
+		$('.circle_2').toggleClass("black");
+	});
+      $(".circle_2").click(function() {
+      $(".color_block").removeClass('display').toggle();
+    })
     	});
     </script>
   </head>
@@ -68,6 +69,22 @@
                   <img src="images/icon_coins.svg">
                 </div>
                 <h2 class="coins">0</h2>
+              </div>
+              <div class="color_block">
+                <img src="images/color_block.svg" alt="">
+                <div class="circle_x"><div class="x_x"><img src="images/x_x.svg" alt=""> </div></div>
+                <div class="pink">
+                <img src="images/pink.svg" alt="">
+                </div>
+                <div class="yellow">
+                <img src="images/yellow.svg" alt="">
+                </div>
+                <div class="green">
+                <img src="images/green.svg" alt="">
+                </div>
+                <div class="navy">
+                <img src="images/navy.svg" alt="">
+                </div>
               </div>
         </div><!--
           --><div class="right_side">
