@@ -9,17 +9,17 @@
     <script>
     $(document).ready(function(){
       $(function() {
-      $('.circle_2').click(function(){
+      $('.circle_2, .circle_1').click(function(){
       $(this).css('background-color', 'rgba(152, 38, 13, 1)');
     })
     })
       $(".circle_2").click(function() {
       $(".color_block").removeClass('display').toggle();
     })
-      $(".circle_x").click(function() {
-      $(".color_block").removeClass('display').toggle();
+      $(".circle_1").click(function() {
+      $(".info_block").removeClass('display').toggle();
     })
-    	});
+  	});
     </script>
   </head>
   <body>
@@ -92,6 +92,10 @@
                 <div class="navy">
                 <img src="images/navy.svg" alt="">
                 </div>
+              </div>
+              <div class="info_block">
+                <img src="images/info_block.svg" alt="">
+                <p>Доходный дом Арлекина это единственный дом в городе, который сдавался в аренду клоунам. На первом этаже дома располагался знаменитый ресторан для грустных клоунов «Кручина Арлекина». Владелец дома был уважаемый, но, в то же время, непредсказуемый клоун-предприниматель К.К. Арлекин.</p>
               </div>
         </div><!--
           --><div class="right_side">
