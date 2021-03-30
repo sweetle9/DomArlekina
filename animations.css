@@ -1,6 +1,25 @@
     .circle_2:hover {
       background: rgba(53, 177, 190, 1);
     }
+    .circle_1:hover {
+      background: rgba(53, 177, 190, 1);
+    }
+    .circle_3:hover {
+      background: rgba(53, 177, 190, 1);
+    }
+    .circle_4:hover {
+      background: rgba(53, 177, 190, 1);
+    }
+    .circle_5:hover {
+      background: rgba(53, 177, 190, 1);
+    }
+    .circle_6:hover {
+      background: rgba(53, 177, 190, 1);
+    }
+    .circle_7:hover {
+      background: rgba(53, 177, 190, 1);
+    }
+    
   .svg:hover path {
     fill: green;
   }
