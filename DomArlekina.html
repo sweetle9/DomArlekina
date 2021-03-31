@@ -9,7 +9,7 @@
     <script>
     $(document).ready(function(){
       $(function() {
-      $('.circle_2, .circle_1').click(function(){
+      $('.circle_2').click(function(){
       $('.circle_2').toggleClass("nobackground");
     })
     })
@@ -26,6 +26,11 @@
       $('.character_artist').css('display', 'none');
     })
  })
+     $(function() {
+      $('.circle_5').click(function() {
+       $('.grid').css('background-image', 'url(images/daylight.svg)');
+     })
+    })
    $(function() {
     $('.yellow').click(function() {
      $('.house_dyn').css('background-image', 'url(images/house_dyn_yellow.svg)');
