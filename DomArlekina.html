@@ -13,10 +13,15 @@
       $('.circle_2').toggleClass("nobackground");
     })
     })
+      $(function() {
+      $('.circle_1').click(function(){
+      $('.circle_1').toggleClass("nobackground");
+    })
+    })
       $(".circle_2, .circle_x").click(function() {
       $(".color_block").toggleClass('display').toggle();
     })
-      $(".circle_1").click(function() {
+      $(".circle_1, .circle_x_i").click(function() {
       $(".info_block").removeClass('display').toggle();
     })
     $(function() {
@@ -29,6 +34,7 @@
      $(function() {
       $('.circle_5').click(function() {
        $('.grid').css('background-image', 'url(images/daylight.svg)');
+       $('.drop_1, .drop_2, .drop_3, .drop_4, .drop_5, .drop_6, .drop_7, .drop_8, .drop_9, .drop_10, .drop_11, .drop_12, .drop_13, .drop_14, .drop_15, .drop_16, .drop_17, .drop_18, .drop_18, .drop_19, .drop_20').css('animation', '0s');
      })
     })
    $(function() {
@@ -63,7 +69,9 @@
   <div class="grid">
     <h1>ДОХОДНЫЙ ДОМ <br> АРЛЕКИНА</h1>
     <h2>В САНКТ-ПЕТЕРБУРГЕ</h2>
-    <div class="drop_1"><img src="images/drop_1.svg" alt=""></div><div class="drop_2"><img src="images/drop_2.svg" alt=""></div><div class="drop_3"><img src="images/drop_3.svg" alt=""></div><div class="drop_4"><img src="images/drop_4.svg" alt=""></div>
+    <div class="rain">
+
+    </div> <div class="drop_1"><img src="images/drop_1.svg" alt=""></div><div class="drop_2"><img src="images/drop_2.svg" alt=""></div><div class="drop_3"><img src="images/drop_3.svg" alt=""></div><div class="drop_4"><img src="images/drop_4.svg" alt=""></div>
     <div class="drop_5"><img src="images/drop_5.svg" alt=""></div><div class="drop_6"><img src="images/drop_6.svg" alt=""></div><div class="drop_7"><img src="images/drop_7.svg" alt=""></div><div class="drop_8"><img src="images/drop_8.svg" alt=""></div>
     <div class="drop_9"><img src="images/drop_9.svg" alt=""></div><div class="drop_10"><img src="images/drop_10.svg" alt=""></div><div class="drop_11"><img src="images/drop_11.svg" alt=""></div><div class="drop_12"><img src="images/drop_12.svg" alt=""></div>
     <div class="drop_13"><img src="images/drop_13.svg" alt=""></div><div class="drop_14"><img src="images/drop_14.svg" alt=""></div><div class="drop_15"><img src="images/drop_15.svg" alt=""></div><div class="drop_16"><img src="images/drop_16.svg" alt=""></div>
@@ -132,6 +140,7 @@
               </div>
               <div class="info_block">
                 <img src="images/info_block.svg" alt="">
+                <div class="circle_x_i"></div>
                 <p>Доходный дом Арлекина это единственный дом в городе, который сдавался в аренду клоунам. На первом этаже дома располагался знаменитый ресторан для грустных клоунов «Кручина Арлекина». Владелец дома был уважаемый, но, в то же время, непредсказуемый клоун-предприниматель К.К. Арлекин.</p>
               </div>
         </div><!--
