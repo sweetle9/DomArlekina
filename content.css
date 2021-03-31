@@ -126,6 +126,10 @@
     bottom: 259.7%;
     left: 56.7%;
     z-index: 4;
+    background-image: url('images/window_3.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
   }
   .window_4 {
     position: relative;
@@ -156,6 +160,15 @@
     top: -251.5%;
     left: 27.3%;
     z-index: 2;
+  }
+  .character_artist {
+    width: 175%;
+    height: 175%;
+    display: block;
+    position: relative;
+    top:-30%;
+    left:26%;
+    display: none;
   }
   .doors_roof {
     position: relative;
