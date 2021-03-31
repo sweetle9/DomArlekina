@@ -10,7 +10,7 @@
     $(document).ready(function(){
       $(function() {
       $('.circle_2, .circle_1').click(function(){
-      $(this).css('background-color', 'rgba(152, 38, 13, 1)');
+      $('.circle_2, .circle_1').toggleClass("nobackground");
     })
     })
       $(".circle_2").click(function() {
@@ -19,7 +19,19 @@
       $(".circle_1").click(function() {
       $(".info_block").removeClass('display').toggle();
     })
-  	});
+    // $('.moon').click(function(){
+    //   $('.moon').animate({
+    //     width: '10%'
+    //   }, 1000);
+    // });
+    $('.moon').on('click',function(){
+    if($('.icon_food').css('display')!='none'){
+    $('.color_block').show().siblings('div').hide();
+  }else if($('.color_block').css('display')!='none'){
+        $('.icon_food').show().siblings('div').hide();
+    }
+});
+    	});
     </script>
   </head>
   <body>
@@ -132,7 +144,9 @@
           <div class="icon_info circle_1">
             <img src="images/icon_info.svg">
           </div>
-            <div class="moon"></div>
+            <div class="moon">
+              <img src="images/moon.svg" alt="">
+            </div>
         </div>
         <div class="top_side">
         <div class="block_1_m">
