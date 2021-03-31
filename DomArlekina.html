@@ -14,7 +14,7 @@
     })
     })
       $(".circle_2, .circle_x").click(function() {
-      $(".color_block").removeClass('display').toggle();
+      $(".color_block").toggleClass('display').toggle();
     })
       $(".circle_1").click(function() {
       $(".info_block").removeClass('display').toggle();
@@ -24,7 +24,7 @@
       $('.house_dyn').css('background-image', 'url(images/house_dyn_pink.svg)');
       $('.shadows').css('background-image', 'url(images/shadows_pink.svg)');
       $('.character_artist').css('display', 'none');
-    });
+    })
  })
    $(function() {
     $('.yellow').click(function() {
