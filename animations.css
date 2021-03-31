@@ -1,3 +1,71 @@
+    .drop_1, .drop_2, .drop_3, .drop_4, .drop_5, .drop_6, .drop_7, .drop_8, .drop_9, .drop_10, .drop_11, .drop_12,
+    .drop_13, .drop_14, .drop_15, .drop_16, .drop_17, .drop_18, .drop_19, .drop_20, .drop_21, .drop_22 {
+      animation: drop_drop 1s infinite ease-in-out;
+    }
+    @keyframes drop_drop {
+      0% {opacity: 1; top: -50%;}
+      100% {opacity: 1; top: 100%;}
+    }
+    .drop_1 {
+      animation-delay: -2.9s;
+    }
+    .drop_2 {
+      animation-delay: 1.2s;
+    }
+    .drop_3 {
+      animation-delay: 0.1s;
+    }
+    .drop_4 {
+      animation-delay: 3s;
+    }
+    .drop_5 {
+      animation-delay: -3.3s;
+    }
+    .drop_6 {
+      animation-delay: 0.5s;
+    }
+    .drop_7 {
+      animation-delay: -2.3s;
+    }
+    .drop_8 {
+      animation-delay: 0.7s;
+    }
+    .drop_9 {
+      animation-delay: 0.4s;
+    }
+    .drop_10 {
+      animation-delay: -1s;
+    }
+    .drop_11 {
+      animation-delay: 2.6s;
+    }
+    .drop_12 {
+      animation-delay: 2s;
+    }
+    .drop_13 {
+      animation-delay: 2.1s;
+    }
+    .drop_14 {
+      animation-delay: -2.3s;
+    }
+    .drop_15 {
+      animation-delay: 1.7s;
+    }
+    .drop_16 {
+      animation-delay: -0.20s;
+    }
+    .drop_17 {
+      animation-delay: 2.4s;
+    }
+    .drop_18 {
+      animation-delay: -1.5;
+    }
+    .drop_19 {
+      animation-delay: -3s;
+    }
+    .drop_20 {
+      animation-delay: 0.15s;
+    }
     .nobackground {
       background-color: rgba(152,38,13,1);
     }
@@ -22,7 +90,3 @@
     .circle_7:hover {
       background: rgba(53, 177, 190, 1);
     }
-
-  .svg:hover path {
-    fill: green;
-  }
