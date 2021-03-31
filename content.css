@@ -130,25 +130,25 @@
   }
   .drop_17 {
     left:80%;
-    top: -58%;
+    top: -78%;
     display: block;
     position: relative;
   }
   .drop_18 {
     left:85%;
-    top: -58%;
+    top: -78%;
     display: block;
     position: relative;
   }
   .drop_19 {
     left:90%;
-    top: -64%;
+    top: -84%;
     display: block;
     position: relative;
   }
   .drop_20 {
     left:95%;
-    top: -64%;
+    top: -84%;
     display: block;
     position: relative;
   }
@@ -356,6 +356,22 @@
     color: white;
     top: -98%;
     left: 69%;
+    background-image: url('images/x_x.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .circle_x_i {
+    width: 2vw;
+    height: 2vw;
+    position: relative;
+    display: block;
+    vertical-align: top;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    top: -71.5%;
+    left: 93.5%;
     background-image: url('images/x_x.svg');
     margin: 0% 0%;
     background-position: center center;
