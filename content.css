@@ -216,6 +216,10 @@
     color: white;
     top: -98%;
     left: 69%;
+    background-image: url('images/x_x.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
   }
   .pink {
     width: 23%;
@@ -248,15 +252,6 @@
     position: relative;
     top:-102%;
     left:35%;
-  }
-  .exit {
-    width: 9%;
-    height: 7%;
-    position: relative;
-    display: block;
-    top: -106%;
-    left:70%;
-    z-index: 1000;
   }
   .color_block {
     width: 45%;
