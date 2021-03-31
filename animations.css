@@ -1,3 +1,6 @@
+    .nobackground {
+      background-color: rgba(152,38,13,1);
+    }
     .circle_2:hover {
       background: rgba(53, 177, 190, 1);
     }
@@ -19,7 +22,7 @@
     .circle_7:hover {
       background: rgba(53, 177, 190, 1);
     }
-    
+
   .svg:hover path {
     fill: green;
   }
