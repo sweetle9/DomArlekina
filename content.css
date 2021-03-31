@@ -67,6 +67,10 @@
     height: 95%;
     top: 4.1%;
     left: 18%;
+    background-image: url(images/house_dyn.svg);
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
     z-index: 1;
   }
   .shadows {
@@ -75,8 +79,12 @@
     display: block;
     width: 64%;
     height: 91%;
-    bottom: 183.9%;
+    bottom: 183.7%;
     left: 18%;
+    background-image: url('images/shadows.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
     z-index: 2;
   }
   .house_stat {
