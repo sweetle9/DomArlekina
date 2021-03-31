@@ -9,7 +9,7 @@
     <script>
     $(document).ready(function(){
       $(function() {
-      $('.circle_2').click(function(){
+      $('.circle_2, .circle_1').click(function(){
       $('.circle_2').toggleClass("nobackground");
     })
     })
@@ -19,18 +19,12 @@
       $(".circle_1").click(function() {
       $(".info_block").removeClass('display').toggle();
     })
-    // $('.moon').click(function(){
-    //   $('.moon').animate({
-    //     width: '10%'
-    //   }, 1000);
-    // });
-    $('.moon').on('click',function(){
-    if($('.icon_food').css('display')!='none'){
-    $('.color_block').show().siblings('div').hide();
-  }else if($('.color_block').css('display')!='none'){
-        $('.icon_food').show().siblings('div').hide();
-    }
-});
+    $(function() {
+     $('.pink').click(function() {
+      $('.house_dyn').css('background-image', 'url(images/house_dyn_pink.svg)');
+      $('.shadows').css('background-image', 'url(images/shadows_pink.svg)');
+    });
+ })
     	});
     </script>
   </head>
@@ -112,13 +106,11 @@
         </div><!--
           --><div class="right_side">
           <div class="house_dyn">
-            <img src="images/house_dyn.svg">
           </div>
           <div class="house_stat">
             <img src="images/house_stat.svg">
           </div>
           <div class="shadows">
-            <img src="images/shadows.svg">
           </div>
           <div class="window_1">
             <img src="images/window_1.svg">
