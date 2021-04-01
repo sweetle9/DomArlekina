@@ -28,13 +28,6 @@
     .stop_animation {
       animation-play-state: running;
     }
-    /* .character_artist {
-      animation: character_1_infinite 1s infinite ease-in-out;
-    }
-    @keyframes character_1 {
-      0% {left: 0%; right: 0%;}
-      100% {left: 10%; right: -10%;}
-    } */
     .drop_1 {
       animation-delay: -2.9s;
     }
