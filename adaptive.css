@@ -152,6 +152,10 @@
     display: inline-block;
     width: 9vw;
     height: 9vw;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    left: 0%;
+    top:0%;
   }
   .circle_5_m {
     position: relative;
@@ -288,7 +292,7 @@
       display: block;
       width: 57%;
       height: 84%;
-      bottom: 236.9%;
+      bottom: 236.7%;
       left: 27%;
       background-image: url('images/shadows.svg');
       margin: 0% 0%;
@@ -435,10 +439,10 @@
       position: relative;
       vertical-align: top;
       display: inline-block;
-      width: 23%;
-      height: 23%;
-      top: -53%;
-      left: 65%;
+      width:5%;
+      height: 52%;
+      top: -72%;
+      left: 54%;
       display: none;
      }
      .color_block_m {
