@@ -383,7 +383,7 @@
       display: block;
       width: 40.5%;
       height: 17.5%;
-      top: 76%;
+      top: -303%;
       left: 35%;
       z-index: 2;
       background-image: url('images/window_6.svg');
@@ -396,9 +396,9 @@
       vertical-align: top;
       display: block;
       width: 58%;
-      height: 23%;
-      top: 59.9%;
-      left: 27%;
+      height: 26%;
+      top: -321.4%;
+      left: 26%;
       z-index: 4;
       background-image: url('images/doors_roof.svg');
       margin: 0% 0%;
@@ -433,7 +433,7 @@
       display: block;
       width: 7vw;
       height: 7vw;
-      top: 52%;
+      top: -330%;
       left: 88.6%;
     }
     .icon_moon_m {
@@ -535,7 +535,7 @@
     position: relative;
     vertical-align: top;
     display: none;
-    top: -27%;
+    top: -399%;
     right: -27%;
     transition: all .8s;
     z-index: 1000;
