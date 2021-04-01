@@ -76,6 +76,7 @@
      vertical-align: top;
      display: flex;
      background-color: rgba(100, 100, 112, 0.55);
+     border-radius: 3%;
      width: 71.016vw;
      height: 13.932vw;
      top: 0%;
@@ -275,6 +276,10 @@
       height: 88%;
       top: -63%;
       left: 27%;
+      background-image: url(images/house_dyn.svg);
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
       z-index: 1;
     }
     .shadows_m {
@@ -285,6 +290,10 @@
       height: 84%;
       bottom: 236.9%;
       left: 27%;
+      background-image: url('images/shadows.svg');
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
       z-index: 2;
     }
     .house_stat_m {
@@ -306,16 +315,24 @@
       top: -308.5%;
       left: 50.2%;
       z-index: 4;
+      background-image: url('images/window_1.svg');
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
     }
     .window_2_m {
       position: relative;
       vertical-align: top;
       display: block;
-      width: 10.5%;
+      width: 10.3%;
       height: 8.5%;
       bottom: 300.3%;
       left: 39.5%;
       z-index: 4;
+      background-image: url('images/window_2.svg');
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
     }
     .window_3_m {
       position: relative;
@@ -326,16 +343,24 @@
       bottom: 308.8%;
       left: 60.8%;
       z-index: 4;
+      background-image: url('images/window_3.svg');
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
     }
     .window_4_m {
       position: relative;
       vertical-align: top;
       display: block;
-      width: 10.5%;
+      width: 10.4%;
       height: 8.5%;
       bottom: 303.2%;
       left: 39.4%;
       z-index: 4;
+      background-image: url('images/window_4.svg');
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
     }
     .window_5_m {
       position: relative;
@@ -346,16 +371,24 @@
       bottom: 311.7%;
       left: 60.8%;
       z-index: 4;
+      background-image: url('images/window_5.svg');
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
     }
     .window_6_m {
       position: relative;
       vertical-align: top;
       display: block;
-      width: 44.5%;
+      width: 40.5%;
       height: 17.5%;
       top: -303%;
-      left: 33%;
+      left: 35%;
       z-index: 2;
+      background-image: url('images/window_6.svg');
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
     }
     .doors_roof_m {
       position: relative;
@@ -366,6 +399,16 @@
       top: -321%;
       left: 23%;
       z-index: 4;
+    }
+    .character_artist_m {
+      width: 190%;
+      height: 190%;
+      display: block;
+      position: relative;
+      top:-42%;
+      left:26%;
+      display: none;
+      transition: all .8s;
     }
     .doors_roof_m img {
       width: 112%;
@@ -388,6 +431,83 @@
       top: -327%;
       left: 88.6%;
     }
+    .icon_moon_m {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 23%;
+      height: 23%;
+      top: -53%;
+      left: 65%;
+      display: none;
+     }
+     .color_block_m {
+       width: 82%;
+       height: 82%;
+       position: relative;
+       vertical-align: top;
+       top: 4%;
+       right: -9%;
+       display: none;
+       transition: all .8s;
+     }
+     .circle_x_m {
+       width: 2vw;
+       height: 2vw;
+       position: relative;
+       display: block;
+       vertical-align: top;
+       border: 0.238vw solid;
+       border-radius: 6vw;
+       color: white;
+       top: -98%;
+       left: 89%;
+       background-image: url('images/x_x.svg');
+       margin: 0% 0%;
+       background-position: center center;
+       background-size: cover;
+       z-index: 1000;
+     }
+     .pink_m {
+       width: 11%;
+       height: 70%;
+       display: block;
+       position: relative;
+       top:-108%;
+       left: 15%;
+       z-index: 1;
+     }
+     .yellow_m {
+       width: 11%;
+       height: 70%;
+       display: block;
+       position: relative;
+       top:-178%;
+       left:34%;
+       z-index: 1;
+     }
+     .green_m {
+       width: 11%;
+       height: 70%;
+       display: block;
+       position: relative;
+       top:-248%;
+       left:52%;
+       z-index: 1;
+     }
+     .navy_m {
+       width: 11%;
+       height: 70%;
+       display: block;
+       position: relative;
+       top:-318%;
+       left:71%;
+       z-index: 1;
+     }
+     .character_artist_m {
+       animation: character_1 1s alternate ease-in-out;
+       animation-play-state: running;
+
 }
   @media (max-width: 320px) {
     .top_side, .bottom_side {
