@@ -28,9 +28,11 @@
      $('.pink').click(function() {
       $('.house_dyn').css('background-image', 'url(images/house_dyn_pink.svg)');
       $('.shadows').css('background-image', 'url(images/shadows_pink.svg)');
+      setTimeout(function(){
       $('.character_artist').css('display', 'none');
+    }, 3000);
+   })
     })
- })
      $(function() {
       $('.circle_5').click(function() {
        $('.grid').css('background-image', 'url(images/daylight.svg)');
@@ -57,6 +59,21 @@
      $('.shadows').css('background-image', 'url(images/shadows_navy.svg)');
      $('.character_artist').css('display', 'none');
    });
+  })
+    $(function () {
+    let count = 0;
+    $('.coin_1').click(function () {
+      count += 1;
+      $('.coins').html(count);
+      if (count == 2) {
+        $(this).css('display', 'none');
+      }
+    });
+  });
+    $(function() {
+    $('.circle_3').click(function(){
+    $('.coin_1').css("display", "block");
+  })
   })
       	});
     </script>
@@ -153,7 +170,12 @@
           <div class="shadows">
           </div>
           <div class="window_1">
-            <img src="images/window_1.svg">
+           <div class="coin_1">
+             <img src="images/coin_1.svg" alt="">
+           </div>
+           <div class="coin_2">
+             <img src="images/coin_2.svg" alt="">
+           </div>
           </div>
           <div class="window_2">
             <img src="images/window_2.svg">
