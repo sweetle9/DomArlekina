@@ -2,12 +2,27 @@
  .top_side, .bottom_side {
    display: none;
  }
- .texture {
-   width: 100%;
+ .icon_info_m .circle_1_m {
+   display: none;
+ }
+ .doors_roof_m {
+   display: none;
+ }
+ .window_6_m {
+   display: none;
  }
   }
   @media (max-width: 1680px) {
    .top_side, .bottom_side {
+     display: none;
+   }
+   .doors_roof_m {
+     display: none;
+   }
+   .window_6_m {
+     display: none;
+   }
+   .icon_info_m .circle_1_m {
      display: none;
    }
     }
@@ -15,9 +30,27 @@
     .top_side, .bottom_side {
       display: none;
     }
+    .doors_roof_m {
+      display: none;
+    }
+    .window_6_m {
+      display: none;
+    }
+    .icon_info_m .circle_1_m {
+      display: none;
+    }
     }
   @media (max-width: 1366px) {
     .top_side, .bottom_side {
+      display: none;
+    }
+    .doors_roof_m {
+      display: none;
+    }
+    .window_6_m {
+      display: none;
+    }
+    .icon_info_m .circle_1_m {
       display: none;
     }
     }
@@ -25,9 +58,27 @@
     .top_side, .bottom_side {
       display: none;
     }
+    .icon_info_m .circle_1_m {
+      display: none;
+    }
+    .doors_roof_m {
+      display: none;
+    }
+    .window_6_m {
+      display: none;
+    }
     }
   @media (max-width: 1024px) {
     .top_side, .bottom_side {
+      display: none;
+    }
+    .icon_info_m .circle_1_m {
+      display: none;
+    }
+    .doors_roof_m {
+      display: none;
+    }
+    .window_6_m {
       display: none;
     }
     }
@@ -436,7 +487,7 @@
       display: block;
       width: 7vw;
       height: 7vw;
-      top: -327%;
+      top: 52%;
       left: 88.6%;
     }
     .icon_moon_m {
@@ -515,7 +566,42 @@
      .character_artist_m {
        animation: character_1 1s alternate ease-in-out;
        animation-play-state: running;
-
+  }
+  .circle_x_i_m {
+    width: 2vw;
+    height: 2vw;
+    position: relative;
+    display: block;
+    vertical-align: top;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    top: -95%;
+    left: 93.5%;
+    background-image: url('images/x_x.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .info_block_m {
+    width: 53%;
+    height: 46%;
+    position: relative;
+    vertical-align: top;
+    display: none;
+    top: -27%;
+    right: -27%;
+    transition: all .8s;
+    z-index: 1000;
+  }
+  .info_block_m p {
+    width: 80%;
+    height: 100%;
+    top:30%;
+    left:10%;
+    line-height:122%;
+    font-size: 2.4vw;
+  }
 }
   @media (max-width: 320px) {
     .top_side, .bottom_side {
