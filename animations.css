@@ -9,6 +9,7 @@
     }
     .character_artist {
       animation: character_1 1s alternate ease-in-out;
+      animation-play-state: running;
     }
     @keyframes character_1 {
       0% {opacity: 0; top: 20%;}
