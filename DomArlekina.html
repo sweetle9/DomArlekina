@@ -127,6 +127,9 @@
     $(".circle_4, .circle_x_l").click(function() {
     $(".light_block").toggleClass('display').toggle();
   })
+    $(".circle_4_m, .circle_x_l_m").click(function() {
+    $(".light_block_m").toggleClass('display').toggle();
+  })
     $(function() {
      $('.pink').click(function() {
       $('.house_dyn').css('background-image', 'url(images/house_dyn_pink.svg)');
@@ -156,6 +159,12 @@
      })
     })
     $(function() {
+     $('.circle_5_m').click(function() {
+      $('.grid').css('background-image', 'url(images/daylight.svg)');
+      $('.drop_1, .drop_2, .drop_3, .drop_4, .drop_5, .drop_6, .drop_7, .drop_8, .drop_9, .drop_10, .drop_11, .drop_12, .drop_13, .drop_14, .drop_15, .drop_16, .drop_17, .drop_18, .drop_18, .drop_19, .drop_20').css('display', 'none');
+    })
+   })
+    $(function() {
      $('.moon').click(function() {
      $('.moon').toggleClass('stop_animation');
     })
@@ -170,6 +179,22 @@
       $('.icon_sun img').css('display', 'block');
     });
    })
+   $(function() {
+    $('.circle_5_m').click(function() {
+     $('.grid').css('background-image', 'url(images/daylight.svg)');
+     $('.drop_1, .drop_2, .drop_3, .drop_4, .drop_5, .drop_6, .drop_7, .drop_8, .drop_9, .drop_10, .drop_11, .drop_12, .drop_13, .drop_14, .drop_15, .drop_16, .drop_17, .drop_18, .drop_18, .drop_19, .drop_20').css('display', 'none');
+     $('.icon_sun_m img').css('display', 'none');
+     $('.icon_moon_m').css('display', 'block');
+   })
+  })
+   $(function() {
+    $('.icon_moon_m').click(function() {
+     $('.grid').css('background-image', 'url(images/city.svg)');
+     $('.drop_1, .drop_2, .drop_3, .drop_4, .drop_5, .drop_6, .drop_7, .drop_8, .drop_9, .drop_10, .drop_11, .drop_12, .drop_13, .drop_14, .drop_15, .drop_16, .drop_17, .drop_18, .drop_18, .drop_19, .drop_20').css('display', 'block');
+     $('.icon_moon_m').css('display', 'none');
+     $('.icon_sun_m img').css('display', 'inline-block');
+   });
+  })
    $(function() {
     $('.yellow').click(function() {
      $('.house_dyn').css('background-image', 'url(images/house_dyn_yellow.svg)');
@@ -533,9 +558,6 @@
             </div>
             </div>
           </div>
-          <div class="icon_moon_m">
-            <img src="images/icon_moon.svg" alt="">
-            </div>
             <div class="color_block_m">
               <img src="images/color_block_m.svg" alt="">
               <div class="circle_x_m">
@@ -553,7 +575,9 @@
               <img src="images/navy.svg" alt="">
               </div>
             </div>
-
+            <div class="icon_moon_m">
+              <img src="images/icon_moon.svg" alt="">
+              </div>
         </div><!--
           --><div class="bottom_side">
           <div class="block_temperature_m">
