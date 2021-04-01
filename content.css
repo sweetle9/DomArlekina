@@ -415,132 +415,132 @@
     transition: all .8s;
   }
   .coin_11 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:82%;
-    left:-1%;
+    top:59%;
+    left:14%;
     display: none;
     transition: all .8s;
   }
   .coin_12 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:55%;
-    left:-1%;
+    top:41%;
+    left:14%;
     display: none;
     transition: all .8s;
   }
   .coin_13 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:28%;
-    left:0%;
+    top:23%;
+    left:14%;
     display: none;
     transition: all .8s;
   }
   .coin_14 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:2%;
-    left:3%;
+    top:5%;
+    left:16%;
     display: none;
     transition: all .8s;
   }
   .coin_15 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:14%;
-    left:15%;
+    top:16%;
+    left:24%;
     display: none;
     transition: all .8s;
   }
   .coin_16 {
-    width: 17%;
-    height: 15%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:-13%;
-    left:15%;
+    top:-2%;
+    left:24%;
     display: none;
     transition: all .8s;
   }
   .coin_17 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:-18%;
-    left:67%;
+    top:-7%;
+    left:63%;
     display: none;
     transition: all .8s;
   }
   .coin_18 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:-45%;
-    left:66%;
+    top:-25%;
+    left:63%;
     display: none;
     transition: all .8s;
   }
   .coin_19 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:-72%;
-    left:67%;
+    top:-43%;
+    left:63%;
     display: none;
     transition: all .8s;
   }
   .coin_20 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:-69%;
-    left:83%;
+    top:-40%;
+    left:74%;
     display: none;
     transition: all .8s;
   }
   .coin_21 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:-96%;
-    left:82%;
+    top:-58%;
+    left:74%;
     display: none;
     transition: all .8s;
   }
   .coin_22 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:-123%;
-    left:83%;
+    top:-76%;
+    left:74%;
     display: none;
     transition: all .8s;
   }
   .coin_23 {
-    width: 17%;
-    height: 17%;
+    width: 11%;
+    height: 11%;
     display: block;
     position: relative;
-    top:-149%;
-    left:78%;
+    top:-94%;
+    left:69%;
     display: none;
     transition: all .8s;
   }
@@ -548,11 +548,15 @@
     position: relative;
     vertical-align: top;
     display: block;
-    width: 59.7%;
-    height: 24.7%;
+    width: 62.7%;
+    height: 27.7%;
     top: -271.3%;
-    left: 16.4%;
+    left: 18.4%;
     z-index: 4;
+    background-image: url('images/doors_roof.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
   }
   .doors_roof img {
     width: 112%;
@@ -564,7 +568,7 @@
     position: relative;
     vertical-align: top;
     display: block;
-    top: -383.5%;
+    top: -385.5%;
     left: 48%;
     z-index: 0;
     background-image: url('images/moon.svg');
@@ -587,11 +591,14 @@
     background-size: cover;
     display: none;
   }
+  .hide {
+    display: block;
+  }
   .icon_info {
     position: relative;
     vertical-align: top;
     display: block;
-    top: -278%;
+    top: -281%;
     left: 86%;
   }
   .icon_info img {
