@@ -1,8 +1,8 @@
     @import "reset.css";
     @import "layout.css";
     @import "content.css";
-    @import "adaptive.css";
     @import "animations.css";
+    @import "adaptive.css";
     @font-face {
     font-family: 'Parmigiano Caption Pro Bold';
     src: url('fonts/Parmigiano Caption Pro/ParmigianoCaptionPro-Bld.eot');
