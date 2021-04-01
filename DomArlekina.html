@@ -13,6 +13,7 @@
       $('.circle_2').toggleClass("nobackground");
       $('.circle_1').removeClass("nobackground");
       $('.circle_3').removeClass("nobackground");
+      $('.circle_5').removeClass("nobackground");
     })
     })
       $(function() {
@@ -20,7 +21,7 @@
       $('.circle_1').toggleClass("nobackground");
       $('.circle_2').removeClass("nobackground");
       $('.circle_3').removeClass("nobackground");
-
+      $('.circle_5').removeClass("nobackground");
     })
     })
       $(function() {
@@ -28,8 +29,25 @@
       $('.circle_3').toggleClass("nobackground");
       $('.circle_1').removeClass("nobackground");
       $('.circle_2').removeClass("nobackground");
+      $('.circle_5').removeClass("nobackground");
     })
     })
+    $(function() {
+    $('.icon_sun').click(function(){
+    $('.circle_5').toggleClass("nobackground");
+    $('.circle_1').removeClass("nobackground");
+    $('.circle_2').removeClass("nobackground");
+    $('.circle_3').removeClass("nobackground");
+  })
+  })
+    $(function() {
+    $('.icon_moon').click(function(){
+    $('.circle_5').toggleClass("nobackground");
+    $('.circle_1').removeClass("nobackground");
+    $('.circle_2').removeClass("nobackground");
+    $('.circle_3').removeClass("nobackground");
+  })
+  })
       $(".circle_2, .circle_x").click(function() {
       $(".color_block").toggleClass('display').toggle();
     })
