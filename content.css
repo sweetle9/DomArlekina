@@ -337,14 +337,33 @@
     height: 112%;
   }
   .moon {
-    width: 26.786vw;
-    height: 26.786vw;
+    width: 30.786vw;
+    height: 30.786vw;
     position: relative;
     vertical-align: top;
     display: block;
-    top: -378.5%;
+    top: -383.5%;
     left: 48%;
     z-index: 0;
+    background-image: url('images/moon.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .sun {
+    width: 30.786vw;
+    height: 30.786vw;
+    position: relative;
+    vertical-align: top;
+    display: block;
+    top: -383.5%;
+    left: 48%;
+    z-index: 0;
+    background-image: url('images/sun.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
+    display: none;
   }
   .icon_info {
     position: relative;
@@ -548,6 +567,16 @@
       margin-left: 8%;
       margin-bottom: 8%;
      }
+     .icon_moon {
+       position: relative;
+       vertical-align: top;
+       display: inline-block;
+       width: 23%;
+       height: 23%;
+       top: -53%;
+       left: 65%;
+       display: none;
+      }
     .circle_6 {
       width: 6vw;
       height: 6vw;
