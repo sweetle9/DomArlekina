@@ -525,7 +525,7 @@
     z-index: 4;
   }
   .stop_animation {
-    animation-play-state: paused;
+    animation-play-state: running;
   }
   .doors_roof img {
     width: 112%;
