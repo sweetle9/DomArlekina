@@ -524,6 +524,9 @@
     left: 16.4%;
     z-index: 4;
   }
+  .stop_animation {
+    animation-play-state: paused;
+  }
   .doors_roof img {
     width: 112%;
     height: 112%;
