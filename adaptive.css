@@ -2,27 +2,9 @@
  .top_side, .bottom_side {
    display: none;
  }
- .icon_info_m .circle_1_m {
-   display: none;
- }
- .doors_roof_m {
-   display: none;
- }
- .window_6_m {
-   display: none;
- }
   }
   @media (max-width: 1680px) {
    .top_side, .bottom_side {
-     display: none;
-   }
-   .doors_roof_m {
-     display: none;
-   }
-   .window_6_m {
-     display: none;
-   }
-   .icon_info_m .circle_1_m {
      display: none;
    }
     }
@@ -30,27 +12,9 @@
     .top_side, .bottom_side {
       display: none;
     }
-    .doors_roof_m {
-      display: none;
-    }
-    .window_6_m {
-      display: none;
-    }
-    .icon_info_m .circle_1_m {
-      display: none;
-    }
     }
   @media (max-width: 1366px) {
     .top_side, .bottom_side {
-      display: none;
-    }
-    .doors_roof_m {
-      display: none;
-    }
-    .window_6_m {
-      display: none;
-    }
-    .icon_info_m .circle_1_m {
       display: none;
     }
     }
@@ -58,27 +22,9 @@
     .top_side, .bottom_side {
       display: none;
     }
-    .icon_info_m .circle_1_m {
-      display: none;
-    }
-    .doors_roof_m {
-      display: none;
-    }
-    .window_6_m {
-      display: none;
-    }
     }
   @media (max-width: 1024px) {
     .top_side, .bottom_side {
-      display: none;
-    }
-    .icon_info_m .circle_1_m {
-      display: none;
-    }
-    .doors_roof_m {
-      display: none;
-    }
-    .window_6_m {
       display: none;
     }
     }
