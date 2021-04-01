@@ -403,6 +403,10 @@
       top: -321%;
       left: 23%;
       z-index: 4;
+      background-image: url('images/doors_roof.svg');
+      margin: 0% 0%;
+      background-position: center center;
+      background-size: cover;
     }
     .character_artist_m {
       width: 190%;
