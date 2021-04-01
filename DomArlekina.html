@@ -49,8 +49,22 @@
       $('.circle_5').click(function() {
        $('.grid').css('background-image', 'url(images/daylight.svg)');
        $('.drop_1, .drop_2, .drop_3, .drop_4, .drop_5, .drop_6, .drop_7, .drop_8, .drop_9, .drop_10, .drop_11, .drop_12, .drop_13, .drop_14, .drop_15, .drop_16, .drop_17, .drop_18, .drop_18, .drop_19, .drop_20').css('animation', '0s');
+       $('.moon').css('display', 'none');
+       $('.sun').css('display', 'block');
+       $('.icon_sun img').css('display', 'none');
+       $('.icon_moon').css('display', 'block');
      })
     })
+    $(function() {
+     $('.icon_moon').click(function() {
+      $('.grid').css('background-image', 'url(images/city.svg)');
+      $('.drop_1, .drop_2, .drop_3, .drop_4, .drop_5, .drop_6, .drop_7, .drop_8, .drop_9, .drop_10, .drop_11, .drop_12, .drop_13, .drop_14, .drop_15, .drop_16, .drop_17, .drop_18, .drop_18, .drop_19, .drop_20').css('animation', '1s');
+      $('.moon').css('display', 'block');
+      $('.sun').css('display', 'none');
+      $('.icon_moon').css('display', 'none');
+      $('.icon_sun img').css('display', 'block');
+    });
+   })
    $(function() {
     $('.yellow').click(function() {
      $('.house_dyn').css('background-image', 'url(images/house_dyn_yellow.svg)');
@@ -80,13 +94,13 @@
       if (count == 1) {
         $(this).css('display', 'none');
       }
+      });
     });
-  });
     $(function() {
     $('.circle_3').click(function(){
     $('.coin_1, .coin_2').css("display", "block");
-  })
-  })
+    })
+    })
       	});
     </script>
   </head>
@@ -127,6 +141,9 @@
               </div>
               <div class="icon_graffiti circle_7">
                 <img src="images/icon_graffiti.svg">
+              </div>
+              <div class="icon_moon">
+                <img src="images/icon_moon.svg" alt="">
               </div>
               </div>
             </div>
@@ -213,7 +230,8 @@
             <img src="images/icon_info.svg">
           </div>
             <div class="moon">
-              <img src="images/moon.svg" alt="">
+            </div>
+            <div class="sun">
             </div>
         </div>
         <div class="top_side">
