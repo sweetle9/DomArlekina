@@ -11,11 +11,23 @@
       $(function() {
       $('.circle_2').click(function(){
       $('.circle_2').toggleClass("nobackground");
+      $('.circle_1').removeClass("nobackground");
+      $('.circle_3').removeClass("nobackground");
     })
     })
       $(function() {
       $('.circle_1').click(function(){
       $('.circle_1').toggleClass("nobackground");
+      $('.circle_2').removeClass("nobackground");
+      $('.circle_3').removeClass("nobackground");
+
+    })
+    })
+      $(function() {
+      $('.circle_3').click(function(){
+      $('.circle_3').toggleClass("nobackground");
+      $('.circle_1').removeClass("nobackground");
+      $('.circle_2').removeClass("nobackground");
     })
     })
       $(".circle_2, .circle_x").click(function() {
