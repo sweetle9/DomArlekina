@@ -194,7 +194,7 @@
     height: 95%;
     top: 4.1%;
     left: 18%;
-    background-image: url(images/house_dyn.svg);
+    background-image: url('images/house_dyn.svg');
     margin: 0% 0%;
     background-position: center center;
     background-size: cover;
@@ -657,6 +657,23 @@
     background-position: center center;
     background-size: cover;
   }
+  .circle_x_l {
+    width: 2vw;
+    height: 2vw;
+    position: relative;
+    display: block;
+    vertical-align: top;
+    border: 0.238vw solid;
+    border-radius: 6vw;
+    color: white;
+    top: -97.5%;
+    left: 59.5%;
+    background-image: url('images/x_x.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1000;
+  }
   .pink {
     width: 23%;
     height: 23%;
@@ -696,6 +713,16 @@
     vertical-align: top;
     top: -34%;
     right: -30%;
+    display: none;
+    transition: all .8s;
+  }
+  .light_block {
+    width: 45%;
+    height: 45%;
+    position: relative;
+    vertical-align: top;
+    top: -30%;
+    right: -4%;
     display: none;
     transition: all .8s;
   }
@@ -813,6 +840,7 @@
        left: 65%;
        display: none;
       }
+
     .circle_6 {
       width: 6vw;
       height: 6vw;
