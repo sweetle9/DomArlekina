@@ -420,8 +420,8 @@
     display: block;
     position: relative;
     top:82%;
-    left:2%;
-    /* display: none; */
+    left:-1%;
+    display: none;
     transition: all .8s;
   }
   .coin_12 {
@@ -430,8 +430,8 @@
     display: block;
     position: relative;
     top:55%;
-    left:2%;
-    /* display: none; */
+    left:-1%;
+    display: none;
     transition: all .8s;
   }
   .coin_13 {
@@ -440,8 +440,8 @@
     display: block;
     position: relative;
     top:28%;
-    left:1%;
-    /* display: none; */
+    left:0%;
+    display: none;
     transition: all .8s;
   }
   .coin_14 {
@@ -451,7 +451,7 @@
     position: relative;
     top:2%;
     left:3%;
-    /* display: none; */
+    display: none;
     transition: all .8s;
   }
   .coin_15 {
@@ -460,18 +460,18 @@
     display: block;
     position: relative;
     top:14%;
-    left:16%;
-    /* display: none; */
+    left:15%;
+    display: none;
     transition: all .8s;
   }
   .coin_16 {
     width: 17%;
-    height: 17%;
+    height: 15%;
     display: block;
     position: relative;
     top:-13%;
-    left:17%;
-    /* display: none; */
+    left:15%;
+    display: none;
     transition: all .8s;
   }
   .coin_17 {
@@ -479,9 +479,9 @@
     height: 17%;
     display: block;
     position: relative;
-    top:-20%;
+    top:-18%;
     left:67%;
-    /* display: none; */
+    display: none;
     transition: all .8s;
   }
   .coin_18 {
@@ -489,9 +489,9 @@
     height: 17%;
     display: block;
     position: relative;
-    top:-47%;
+    top:-45%;
     left:66%;
-    /* display: none; */
+    display: none;
     transition: all .8s;
   }
   .coin_19 {
@@ -499,9 +499,9 @@
     height: 17%;
     display: block;
     position: relative;
-    top:-74%;
+    top:-72%;
     left:67%;
-    /* display: none; */
+    display: none;
     transition: all .8s;
   }
   .coin_20 {
@@ -509,9 +509,39 @@
     height: 17%;
     display: block;
     position: relative;
-    top:-101%;
-    left:68%;
-    /* display: none; */
+    top:-69%;
+    left:83%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_21 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:-96%;
+    left:82%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_22 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:-123%;
+    left:83%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_23 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:-149%;
+    left:78%;
+    display: none;
     transition: all .8s;
   }
   .doors_roof {
@@ -523,9 +553,6 @@
     top: -271.3%;
     left: 16.4%;
     z-index: 4;
-  }
-  .stop_animation {
-    animation-play-state: running;
   }
   .doors_roof img {
     width: 112%;
