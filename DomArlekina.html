@@ -14,6 +14,7 @@
       $('.circle_1').removeClass("nobackground");
       $('.circle_3').removeClass("nobackground");
       $('.circle_5').removeClass("nobackground");
+      $('.circle_4').removeClass("nobackground");
     })
     })
       $(function() {
@@ -22,6 +23,7 @@
       $('.circle_2').removeClass("nobackground");
       $('.circle_3').removeClass("nobackground");
       $('.circle_5').removeClass("nobackground");
+      $('.circle_4').removeClass("nobackground");
     })
     })
       $(function() {
@@ -30,8 +32,18 @@
       $('.circle_1').removeClass("nobackground");
       $('.circle_2').removeClass("nobackground");
       $('.circle_5').removeClass("nobackground");
+      $('.circle_4').removeClass("nobackground");
     })
     })
+    $(function() {
+    $('.circle_4').click(function(){
+    $('.circle_4').toggleClass("nobackground");
+    $('.circle_1').removeClass("nobackground");
+    $('.circle_2').removeClass("nobackground");
+    $('.circle_5').removeClass("nobackground");
+    $('.circle_3').removeClass("nobackground");
+  })
+  })
     $(function() {
     $('.icon_sun').click(function(){
     $('.circle_5').toggleClass("nobackground");
@@ -48,18 +60,88 @@
     $('.circle_3').removeClass("nobackground");
   })
   })
+      $(function() {
+      $('.circle_2_m').click(function(){
+      $('.circle_2_m').toggleClass("nobackground");
+      $('.circle_1_m').removeClass("nobackground");
+      $('.circle_3_m').removeClass("nobackground");
+      $('.circle_5_m').removeClass("nobackground");
+      $('.circle_4_m').removeClass("nobackground");
+    })
+    })
+      $(function() {
+      $('.circle_1_m').click(function(){
+      $('.circle_1_m').toggleClass("nobackground");
+      $('.circle_2_m').removeClass("nobackground");
+      $('.circle_3_m').removeClass("nobackground");
+      $('.circle_5_m').removeClass("nobackground");
+      $('.circle_4_m').removeClass("nobackground");
+    })
+    })
+      $(function() {
+      $('.circle_3_m').click(function(){
+      $('.circle_3_m').toggleClass("nobackground");
+      $('.circle_1_m').removeClass("nobackground");
+      $('.circle_2_m').removeClass("nobackground");
+      $('.circle_5_m').removeClass("nobackground");
+      $('.circle_4_m').removeClass("nobackground");
+    })
+    })
+    $(function() {
+    $('.circle_4_m').click(function(){
+    $('.circle_4_m').toggleClass("nobackground");
+    $('.circle_1_m').removeClass("nobackground");
+    $('.circle_2_m').removeClass("nobackground");
+    $('.circle_5_m').removeClass("nobackground");
+    $('.circle_3_m').removeClass("nobackground");
+    })
+    })
+    $(function() {
+    $('.icon_sun_m').click(function(){
+    $('.circle_5_m').toggleClass("nobackground");
+    $('.circle_1_m').removeClass("nobackground");
+    $('.circle_2_m').removeClass("nobackground");
+    $('.circle_3_m').removeClass("nobackground");
+    })
+    })
+    $(function() {
+    $('.icon_moon_m').click(function(){
+    $('.circle_5_m').toggleClass("nobackground");
+    $('.circle_1_m').removeClass("nobackground");
+    $('.circle_2_m').removeClass("nobackground");
+    $('.circle_3_m').removeClass("nobackground");
+    })
+    })
       $(".circle_2, .circle_x").click(function() {
       $(".color_block").toggleClass('display').toggle();
     })
+    $(".circle_2_m, .circle_x_m").click(function() {
+    $(".color_block_m").toggleClass('display').toggle();
+  })
       $(".circle_1, .circle_x_i").click(function() {
       $(".info_block").removeClass('display').toggle();
     })
+    $(".circle_1_m, .circle_x_i_m").click(function() {
+    $(".info_block_m").removeClass('display').toggle();
+  })
+    $(".circle_4, .circle_x_l").click(function() {
+    $(".light_block").toggleClass('display').toggle();
+  })
     $(function() {
      $('.pink').click(function() {
       $('.house_dyn').css('background-image', 'url(images/house_dyn_pink.svg)');
       $('.shadows').css('background-image', 'url(images/shadows_pink.svg)');
       setTimeout(function(){
       $('.character_artist').css('display', 'none');
+    }, 3000);
+   })
+    })
+    $(function() {
+     $('.pink_m').click(function() {
+      $('.house_dyn_m').css('background-image', 'url(images/house_dyn_pink.svg)');
+      $('.shadows_m').css('background-image', 'url(images/shadows_pink.svg)');
+      setTimeout(function(){
+      $('.character_artist_m').css('display', 'none');
     }, 3000);
    })
     })
@@ -95,6 +177,13 @@
        $('.character_artist').css('display', 'none');
    });
   })
+  $(function() {
+   $('.yellow_m').click(function() {
+    $('.house_dyn_m').css('background-image', 'url(images/house_dyn_yellow.svg)');
+    $('.shadows_m').css('background-image', 'url(images/shadows_yellow.svg)');
+      $('.character_artist_m').css('display', 'none');
+  });
+ })
     $(function() {
      $('.green').click(function() {
       $('.house_dyn').css('background-image', 'url(images/house_dyn_green.svg)');
@@ -103,12 +192,26 @@
     });
    })
    $(function() {
+    $('.green_m').click(function() {
+     $('.house_dyn_m').css('background-image', 'url(images/house_dyn_green.svg)');
+     $('.shadows_m').css('background-image', 'url(images/shadows_green.svg)');
+     $('.character_artist_m').css('display', 'block');
+   });
+  })
+   $(function() {
     $('.navy').click(function() {
      $('.house_dyn').css('background-image', 'url(images/house_dyn_navy.svg)');
      $('.shadows').css('background-image', 'url(images/shadows_navy.svg)');
      $('.character_artist').css('display', 'none');
    });
   })
+  $(function() {
+   $('.navy_m').click(function() {
+    $('.house_dyn_m').css('background-image', 'url(images/house_dyn_navy.svg)');
+    $('.shadows_m').css('background-image', 'url(images/shadows_navy.svg)');
+    $('.character_artist_m').css('display', 'none');
+  });
+ })
     $(function () {
     let count = 0;
     $('.coin_1, .coin_2, .coin_3, .coin_4, .coin_5, .coin_6, .coin_7, .coin_8, .coin_9, .coin_10, .coin_11, .coin_12, .coin_13, .coin_14, .coin_15, coin_16, .coin_17, .coin_18, .coin_19, .coin_20, .coin_21, .coin_22, .coin_23').click(function () {
@@ -119,6 +222,11 @@
     $(function() {
     $('.circle_3').click(function(){
     $('.coin_1, .coin_2, .coin_3, .coin_4, .coin_5, .coin_6, .coin_7, .coin_8, .coin_9, .coin_10, .coin_11, .coin_12, .coin_13, .coin_14, .coin_15, .coin_16, .coin_17, .coin_18, .coin_19, .coin_20, .coin_21, .coin_22, .coin_23').toggleClass("hide");
+    })
+    })
+    $(function() {
+    $('.circle_x_l').click(function(){
+    $('.light_block').css("display", 'none');
     })
     })
       $(function() {
@@ -248,12 +356,29 @@
     <h1>ДОХОДНЫЙ ДОМ <br> АРЛЕКИНА</h1>
     <h2>В САНКТ-ПЕТЕРБУРГЕ</h2>
     <div class="rain">
-
     </div> <div class="drop_1"><img src="images/drop_1.svg" alt=""></div><div class="drop_2"><img src="images/drop_2.svg" alt=""></div><div class="drop_3"><img src="images/drop_3.svg" alt=""></div><div class="drop_4"><img src="images/drop_4.svg" alt=""></div>
     <div class="drop_5"><img src="images/drop_5.svg" alt=""></div><div class="drop_6"><img src="images/drop_6.svg" alt=""></div><div class="drop_7"><img src="images/drop_7.svg" alt=""></div><div class="drop_8"><img src="images/drop_8.svg" alt=""></div>
     <div class="drop_9"><img src="images/drop_9.svg" alt=""></div><div class="drop_10"><img src="images/drop_10.svg" alt=""></div><div class="drop_11"><img src="images/drop_11.svg" alt=""></div><div class="drop_12"><img src="images/drop_12.svg" alt=""></div>
     <div class="drop_13"><img src="images/drop_13.svg" alt=""></div><div class="drop_14"><img src="images/drop_14.svg" alt=""></div><div class="drop_15"><img src="images/drop_15.svg" alt=""></div><div class="drop_16"><img src="images/drop_16.svg" alt=""></div>
     <div class="drop_17"><img src="images/drop_17.svg" alt=""></div><div class="drop_18"><img src="images/drop_18.svg" alt=""></div><div class="drop_19"><img src="images/drop_19.svg" alt=""></div><div class="drop_20"><img src="images/drop_20.svg" alt=""></div>
+    <!-- <div class="light_block">
+      <img src="images/light_block.svg" alt="">
+      <div class="circle_x_l">
+      <div class="flat_1">
+        <div class="light_on_1">
+          <img src="images/light_on_1.svg" alt="">
+        </div>
+        <div class="light_off_1">
+          <img src="images/light_off_1.svg" alt="">
+        </div>
+        <img src="images/flat_1.svg" alt="">
+      </div>
+      <div class="flat_2"><img src="images/flat_2.svg" alt=""></div>
+      <div class="flat_3"><img src="images/flat_3.svg" alt=""></div>
+      <div class="flat_4"><img src="images/flat_4.svg" alt=""></div>
+      <div class="flat_5"><img src="images/flat_5.svg" alt=""></div>
+      <div class="flat_6"><img src="images/flat_6.svg" alt=""></div> -->
+      </div>
     </div>
     <div class="main">
         <div class="left_side">
@@ -408,6 +533,27 @@
             </div>
             </div>
           </div>
+          <div class="icon_moon_m">
+            <img src="images/icon_moon.svg" alt="">
+            </div>
+            <div class="color_block_m">
+              <img src="images/color_block_m.svg" alt="">
+              <div class="circle_x_m">
+              </div>
+              <div class="pink_m">
+              <img src="images/pink.svg" alt="">
+              </div>
+              <div class="yellow_m">
+              <img src="images/yellow.svg" alt="">
+              </div>
+              <div class="green_m">
+              <img src="images/green.svg" alt="">
+              </div>
+              <div class="navy_m">
+              <img src="images/navy.svg" alt="">
+              </div>
+            </div>
+
         </div><!--
           --><div class="bottom_side">
           <div class="block_temperature_m">
@@ -431,37 +577,38 @@
             <h2 class="coins_m">0</h2>
           </div>
           <div class="house_dyn_m">
-            <img src="images/house_dyn.svg">
           </div>
           <div class="house_stat_m">
             <img src="images/house_stat.svg">
           </div>
           <div class="shadows_m">
-            <img src="images/shadows.svg">
           </div>
           <div class="window_1_m">
-            <img src="images/window_1.svg">
+
           </div>
           <div class="window_2_m">
-            <img src="images/window_2.svg">
+
           </div>
           <div class="window_3_m">
-            <img src="images/window_3.svg">
+            <div class="character_artist_m">
+              <img src="images/character_artist.svg" alt="">
+            </div>
           </div>
           <div class="window_4_m">
-            <img src="images/window_4.svg">
+
           </div>
           <div class="window_5_m">
-            <img src="images/window_5.svg">
+
           </div>
           <div class="window_6_m">
-            <img src="images/window_6.svg">
+
           </div>
           <div class="doors_roof_m">
             <img src="images/doors_roof.svg">
       </div>
       <div class="icon_info_m circle_1_m">
         <img src="images/icon_info.svg">
+      </div>
       </div>
       <div class="stop_animation"></div>
   </body>
