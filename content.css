@@ -233,6 +233,10 @@
     bottom: 260.8%;
     left: 44.7%;
     z-index: 4;
+    background-image: url('images/window_1.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
   }
   .window_2 {
     position: relative;
@@ -296,6 +300,27 @@
     top:-42%;
     left:26%;
     display: none;
+    transition: all .8s;
+  }
+  .coin_1 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:50%;
+    left:13%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_2 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:-45%;
+    left:20%;
+    display: none;
+    transition: all .8s;
   }
   .doors_roof {
     position: relative;
