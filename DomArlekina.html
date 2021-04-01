@@ -74,7 +74,7 @@
   })
     $(function () {
     let count = 0;
-    $('.coin_1').click(function () {
+    $('.coin_1, .coin_2').click(function () {
       count += 1;
       $('.coins').html(count);
       if (count == 1) {
@@ -84,7 +84,7 @@
   });
     $(function() {
     $('.circle_3').click(function(){
-    $('.coin_1').css("display", "block");
+    $('.coin_1, .coin_2').css("display", "block");
   })
   })
       	});
