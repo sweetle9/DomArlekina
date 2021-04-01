@@ -288,7 +288,11 @@
     height: 8.5%;
     bottom: 261.5%;
     left: 56.7%;
-    z-index: 4;
+    z-index: 3;
+    background-image: url('images/window_5.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
   }
   .window_6 {
     position: relative;
