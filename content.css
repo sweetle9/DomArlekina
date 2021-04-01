@@ -247,6 +247,10 @@
     bottom: 251.2%;
     left: 32.5%;
     z-index: 4;
+    background-image: url('images/window_2.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
   }
   .window_3 {
     position: relative;
@@ -271,6 +275,10 @@
     bottom: 253%;
     left: 32.5%;
     z-index: 4;
+    background-image: url('images/window_4.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
   }
   .window_5 {
     position: relative;
@@ -291,6 +299,10 @@
     top: -251.5%;
     left: 27.3%;
     z-index: 2;
+    background-image: url('images/window_6.svg');
+    margin: 0% 0%;
+    background-position: center center;
+    background-size: cover;
   }
   .character_artist {
     width: 190%;
@@ -320,6 +332,186 @@
     top:-45%;
     left:20%;
     display: none;
+    transition: all .8s;
+  }
+  .coin_3 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:51%;
+    left:14%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_4 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:-44%;
+    left:24%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_5 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:-139%;
+    left:14%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_6 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:50%;
+    left:13%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_7 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top: 52%;
+    left:13%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_8 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:-44%;
+    left:20%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_9 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:-140%;
+    left:20%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_10 {
+    width: 75%;
+    height: 75%;
+    display: block;
+    position: relative;
+    top:-237%;
+    left:11%;
+    display: none;
+    transition: all .8s;
+  }
+  .coin_11 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:82%;
+    left:2%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_12 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:55%;
+    left:2%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_13 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:28%;
+    left:1%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_14 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:2%;
+    left:3%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_15 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:14%;
+    left:16%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_16 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:-13%;
+    left:17%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_17 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:-20%;
+    left:67%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_18 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:-47%;
+    left:66%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_19 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:-74%;
+    left:67%;
+    /* display: none; */
+    transition: all .8s;
+  }
+  .coin_20 {
+    width: 17%;
+    height: 17%;
+    display: block;
+    position: relative;
+    top:-101%;
+    left:68%;
+    /* display: none; */
     transition: all .8s;
   }
   .doors_roof {
