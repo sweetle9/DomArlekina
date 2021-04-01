@@ -598,6 +598,9 @@
   .hide {
     display: block;
   }
+  .hide_none {
+    display: none;
+  }
   .icon_info {
     position: relative;
     vertical-align: top;
