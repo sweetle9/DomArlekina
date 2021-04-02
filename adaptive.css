@@ -29,7 +29,7 @@
     }
     }
   @media (max-width: 768px) {
-   .left_side, .right_side {
+   .left_side, .right_side, .light_block {
      display: none;
    }
    .grid {
