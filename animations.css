@@ -128,3 +128,11 @@
       0% {opacity: 1; top: 70%;}
       100% {opacity: 1; top: 13%;}
     }
+    .tenj_3, .clown {
+      animation: clowny 1s infinite ease-out;
+      animation-play-state: running;
+    }
+    @keyframes clowny {
+      0% {opacity: 1; left: 10%;}
+      100% {opacity: 0;}
+    }
