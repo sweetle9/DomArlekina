@@ -237,6 +237,7 @@
     margin: 0% 0%;
     background-position: center center;
     background-size: cover;
+    overflow: hidden;
   }
   .window_2 {
     position: relative;
@@ -744,6 +745,101 @@
     left:5%;
     line-height:122%;
   }
+  .flat_1, .flat_2, .flat_3, .flat_4, .flat_5, .flat_6 {
+    width: 25%;
+    height: 25%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .light_on_1, .light_on_2, .light_on_3, .light_on_4, .light_on_5, .light_on_6 {
+    width: 65%;
+    height: 65%;
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+  }
+  .light_off_1, .light_off_2, .light_off_3, .light_off_4, .light_off_5, .light_off_6 {
+    width: 65%;
+    height: 65%;
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+  }
+  .flat_1 {
+    top:-99%;
+    left:23%;
+  }
+  .flat_2 {
+    top:-124%;
+    left:38%;
+  }
+  .flat_3 {
+    top:-122%;
+    left:23%;
+  }
+  .flat_4 {
+    top:-147%;
+    left:38%;
+  }
+  .flat_5 {
+    top:-145%;
+    left:23%;
+  }
+  .flat_6 {
+    top:-170%;
+    left:38%;
+  }
+  .light_on_1 {
+    top:17%;
+    left:53%;
+  }
+  .light_off_1 {
+    top:17%;
+    left:48%;
+  }
+  .light_on_2 {
+    top:17%;
+    left:74%;
+  }
+  .light_off_2 {
+    top:17%;
+    left:26%;
+  }
+  .light_on_3 {
+    top:17%;
+    left:74%;
+  }
+  .light_off_3 {
+    top:17%;
+    left:26%;
+  }
+  .light_on_4 {
+    top:17%;
+    left:74%;
+  }
+  .light_off_4 {
+    top:17%;
+    left:26%;
+  }
+  .light_on_5 {
+    top:17%;
+    left:74%;
+  }
+  .light_off_5 {
+    top:17%;
+    left:26%;
+  }
+  .light_on_6 {
+    top:17%;
+    left:74%;
+  }
+  .light_off_6 {
+    top:17%;
+    left:26%;
+  }
    .circle_1 {
     width: 4.524vw;
     height: 4.524vw;
@@ -754,7 +850,22 @@
     border-radius: 6vw;
     color: white;
   }
-
+  .tenj_1 {
+    width: 100%;
+    height: 100%;
+    top:7%;
+    left:0%;
+    display: none;
+    position: relative;
+  }
+  .fisherman {
+    width: 100%;
+    height: 100%;
+    top:7%;
+    left:0%;
+    display: none;
+    position: relative;
+  }
   .circle_2 {
     width: 6vw;
     height: 6vw;
